@@ -1,0 +1,819 @@
+   YOUR ACCOUNT STATEMENT                                             ACCOUNT NO    : 0222-79016699-03 OF
+   FOR THE PERIOD ENDING: JAN01,2019 TO NOV09,2020                                    NOWSHERA-CANTT. BRANCH
+   RABIA TABASUM                                                      ACCOUNT TYPE  : ASAAN ACCOUNT (CURRE
+   ZHWANDOON WELFARE ORGINIZATION                                     CURRENCY      : Pakistan Rupee
+   OPP HOTEL GRAND NEAR ECS STREET                                    PRINTING DATE : 11-11-20
+   PESHAWAR                                                           FREQUENCY     : INTERIM / DUPLICATE
+                                                                      PAGE NO       :    1
+                                                                      USER          : IZ8401
+   -----------------------------------------------------------------------------------------------------------------
+   |DATE   |VALUE  |PARTICULARS                        |             DEBIT|            CREDIT|             BALANCE |
+   |-------|-------|-----------------------------------|------------------|------------------|---------------------|
+   |       |       |BROUGHT FORWARD                    |                  |                  |          102,206.45 |
+   |13FEB19|       |ATM Cash Withdra  0938501707030213 |            500.00|                  |          101,706.45 |
+   |       |       |ASK 1084        170703 1302 6216570|                  |                  |                     |
+   |13FEB19|       |MNET Balance Inq  0937041706250213 |              2.50|                  |          101,703.95 |
+   |       |       |SWITCH BAL INQUIRY FEE 093704170625|                  |                  |                     |
+   |13FEB19|       |ATM Switch Fee    0938501707030213 |             18.75|                  |          101,685.20 |
+   |       |       |                       904417093850|                  |                  |                     |
+   |16FEB19|       |Funds Transfer    3220781201490216 |                  |          5,000.00|          106,685.20 |
+   |       |       |FRM HBL 02227901355603 000101322078|                  |                  |                     |
+   |       |       |Thru MOBILE BANKING                |                  |                  |                     |
+   |18FEB19|       |ATM Cash Withdra  4484391036260217 |          5,000.00|                  |          101,685.20 |
+   |       |       |ASK 1084        103626 1702 6216570|                  |                  |                     |
+   |18FEB19|       |ATM Switch Fee    4484391036260217 |             18.75|                  |          101,666.45 |
+   |       |       |                       904810448439|                  |                  |                     |
+   |19FEB19|       |Chq Book Issue c  0222-CF1BPK-001  |            287.50|                  |          101,378.95 |
+   |       |       |CHEQUE BOOK ISSUANCE CHARGES       |                  |                  |                     |
+   |25FEB19|       |ATM Cash Withdra  6290141931540225 |         20,000.00|                  |           81,378.95 |
+   |       |       |UBL 1470        193154 2502 6216570|                  |                  |                     |
+   |25FEB19|       |ATM Cash Withdra  6292261932360225 |         10,000.00|                  |           71,378.95 |
+   |       |       |UBL 1470        193236 2502 6216570|                  |                  |                     |
+   |25FEB19|       |ATM Switch Fee    6290141931540225 |             18.75|                  |           71,360.20 |
+   |       |       |                       905619629014|                  |                  |                     |
+   |25FEB19|       |ATM Switch Fee    6292261932360225 |             18.75|                  |           71,341.45 |
+   |       |       |                       905619629226|                  |                  |                     |
+   |25MAR19|       |MNET Balance Inq  4444791803450323 |              2.50|                  |           71,338.95 |
+   |       |       |SWITCH BAL INQUIRY FEE 444479180345|                  |                  |                     |
+   |25MAR19|       |MNET Balance Inq  8525021813100323 |              2.50|                  |           71,336.45 |
+   |       |       |SWITCH BAL INQUIRY FEE 852502181310|                  |                  |                     |
+   |29MAR19|       |MNET Balance Inq  7875191342350329 |              2.50|                  |           71,333.95 |
+   |       |       |SWITCH BAL INQUIRY FEE 787519134235|                  |                  |                     |
+   |16APR19|       |Cash Deposit      43215076         |                  |         30,000.00|          101,333.95 |
+   |17APR19|       |Online Credit     48910708         |                  |        165,000.00|          266,333.95 |
+   |       |       |SADAM HUSSAIN                      |                  |                  |                     |
+   |       |       |03169715922                        |                  |                  |                     |
+   |       |       |C1720141191769                     |                  |                  |                     |
+   |       |       |0910                               |                  |                  |                     |
+   --------------------------------------------Continue on next page------------------------------------------------
+   YOUR ACCOUNT STATEMENT                                             ACCOUNT NO    : 0222-79016699-03 OF
+   FOR THE PERIOD ENDING: JAN01,2019 TO NOV09,2020                                    NOWSHERA-CANTT. BRANCH
+   RABIA TABASUM                                                      ACCOUNT TYPE  : ASAAN ACCOUNT (CURRE
+   ZHWANDOON WELFARE ORGINIZATION                                     CURRENCY      : Pakistan Rupee
+   OPP HOTEL GRAND NEAR ECS STREET                                    PRINTING DATE : 11-11-20
+   PESHAWAR                                                           FREQUENCY     : INTERIM / DUPLICATE
+                                                                      PAGE NO       :    2
+                                                                      USER          : IZ8401
+   -----------------------------------------------------------------------------------------------------------------
+   |DATE   |VALUE  |PARTICULARS                        |             DEBIT|            CREDIT|             BALANCE |
+   |-------|-------|-----------------------------------|------------------|------------------|---------------------|
+   |       |       |BROUGHT FORWARD                    |                  |                  |          266,333.95 |
+   |17APR19|       |MNET Balance Inq  2766131740120417 |              2.50|                  |          266,331.45 |
+   |       |       |SWITCH BAL INQUIRY FEE 276613174012|                  |                  |                     |
+   |22APR19|       |Cash Withdrawl b  00000001         |         50,000.00|                  |          216,331.45 |
+   |26APR19|       |ATM Cash Withdra  4392591853230426 |          3,000.00|                  |          213,331.45 |
+   |       |       |UBL 7427        185323 2604 6216570|                  |                  |                     |
+   |26APR19|       |ATM Switch Fee    4392591853230426 |             18.75|                  |          213,312.70 |
+   |       |       |                       911618439259|                  |                  |                     |
+   |27APR19|       |Funds Transfer    1804671154380427 |                  |          5,115.00|          218,427.70 |
+   |       |       |FRM BAF 40311004646001 000022180467|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              BAFL |                  |                  |                     |
+   |27APR19|       |ATM Cash Withdra  8692481847550427 |          1,000.00|                  |          217,427.70 |
+   |       |       |EGB 0610        184755 2704 6216570|                  |                  |                     |
+   |27APR19|       |ATM Switch Fee    8692481847550427 |             18.75|                  |          217,408.95 |
+   |       |       |                       521500869248|                  |                  |                     |
+   |30APR19|       |ATM Cash Withdra  4449991425350430 |          1,000.00|                  |          216,408.95 |
+   |       |       |ABL 0447        142535 3004 6216570|                  |                  |                     |
+   |30APR19|       |ATM Switch Fee    4449991425350430 |             18.75|                  |          216,390.20 |
+   |       |       |                       912014444999|                  |                  |                     |
+   |04MAY19|       |ATM Cash Withdra  7667911909340504 |         15,000.00|                  |          201,390.20 |
+   |       |       |NBP 0566        190934 0405 6216570|                  |                  |                     |
+   |04MAY19|       |ATM Switch Fee    7667911909340504 |             18.75|                  |          201,371.45 |
+   |       |       |                       9773        |                  |                  |                     |
+   |08MAY19|       |Online Cash With  00000002         |        100,000.00|                  |          101,371.45 |
+   |       |       |ZAIN                               |                  |                  |                     |
+   |       |       |1236                               |                  |                  |                     |
+   |08MAY19|       |Online Charges    0222-CF1BPK-001  |            426.00|                  |          100,945.45 |
+   |       |       |ONLINE FUND TRANSFER               |                  |                  |                     |
+   |09MAY19|08MAY19|WITH HOLDING TAX                   |            600.00|                  |          100,345.45 |
+   |       |       |WHT Deducted @ .600PER             |                  |                  |                     |
+   |       |       |WithHolding Tax on Cash Withdrawl  |                  |                  |                     |
+   |17MAY19|       |ATM Cash Withdra  7993001658390517 |         20,000.00|                  |           80,345.45 |
+   |       |       |UBL 1470        165839 1705 6216570|                  |                  |                     |
+   --------------------------------------------Continue on next page------------------------------------------------
+   YOUR ACCOUNT STATEMENT                                             ACCOUNT NO    : 0222-79016699-03 OF
+   FOR THE PERIOD ENDING: JAN01,2019 TO NOV09,2020                                    NOWSHERA-CANTT. BRANCH
+   RABIA TABASUM                                                      ACCOUNT TYPE  : ASAAN ACCOUNT (CURRE
+   ZHWANDOON WELFARE ORGINIZATION                                     CURRENCY      : Pakistan Rupee
+   OPP HOTEL GRAND NEAR ECS STREET                                    PRINTING DATE : 11-11-20
+   PESHAWAR                                                           FREQUENCY     : INTERIM / DUPLICATE
+                                                                      PAGE NO       :    3
+                                                                      USER          : IZ8401
+   -----------------------------------------------------------------------------------------------------------------
+   |DATE   |VALUE  |PARTICULARS                        |             DEBIT|            CREDIT|             BALANCE |
+   |-------|-------|-----------------------------------|------------------|------------------|---------------------|
+   |       |       |BROUGHT FORWARD                    |                  |                  |           80,345.45 |
+   |17MAY19|       |ATM Cash Withdra  8007171703200517 |         10,000.00|                  |           70,345.45 |
+   |       |       |UBL 1470        170320 1705 6216570|                  |                  |                     |
+   |17MAY19|       |MNET Balance Inq  7995711659310517 |              2.50|                  |           70,342.95 |
+   |       |       |SWITCH BAL INQUIRY FEE 799571165931|                  |                  |                     |
+   |17MAY19|       |ATM Switch Fee    7993001658390517 |             18.75|                  |           70,324.20 |
+   |       |       |                       913716799300|                  |                  |                     |
+   |17MAY19|       |ATM Switch Fee    8007171703200517 |             18.75|                  |           70,305.45 |
+   |       |       |                       913717800717|                  |                  |                     |
+   |20MAY19|       |ATM Cash Withdra  0993812032420518 |         20,000.00|                  |           50,305.45 |
+   |       |       |UBL 1470        203242 1805 6216570|                  |                  |                     |
+   |20MAY19|       |ATM Cash Withdra  0995722033320518 |          6,000.00|                  |           44,305.45 |
+   |       |       |UBL 1470        203332 1805 6216570|                  |                  |                     |
+   |20MAY19|       |ATM Switch Fee    0993812032420518 |             18.75|                  |           44,286.70 |
+   |       |       |                       913820099381|                  |                  |                     |
+   |20MAY19|       |ATM Switch Fee    0995722033320518 |             18.75|                  |           44,267.95 |
+   |       |       |                       913820099572|                  |                  |                     |
+   |22MAY19|       |MNET Balance Inq  0710001728310522 |              2.50|                  |           44,265.45 |
+   |       |       |SWITCH BAL INQUIRY FEE 071000172831|                  |                  |                     |
+   |31MAY19|       |ATM Cash Withdra  9015121724110531 |          1,000.00|                  |           43,265.45 |
+   |       |       |UBL 1470        172411 3105 6216570|                  |                  |                     |
+   |31MAY19|       |MNET Balance Inq  9013581723510531 |              2.50|                  |           43,262.95 |
+   |       |       |SWITCH BAL INQUIRY FEE 901358172351|                  |                  |                     |
+   |31MAY19|       |ATM Switch Fee    9015121724110531 |             18.75|                  |           43,244.20 |
+   |       |       |                       915117901512|                  |                  |                     |
+   |03JUN19|       |ATM Cash Withdra  8849431232490603 |         10,000.00|                  |           33,244.20 |
+   |       |       |MCB 8054        123249 0306 6216570|                  |                  |                     |
+   |03JUN19|       |MNET Balance Inq  1558531142130603 |              2.50|                  |           33,241.70 |
+   |       |       |SWITCH BAL INQUIRY FEE 155853114213|                  |                  |                     |
+   |03JUN19|       |ATM Switch Fee    8849431232490603 |             18.75|                  |           33,222.95 |
+   |       |       |                       839900884943|                  |                  |                     |
+   |10JUN19|       |ATM Cash Withdra  3430311517500610 |         10,000.00|                  |           23,222.95 |
+   |       |       |MCB 0957        151750 1006 6216570|                  |                  |                     |
+   --------------------------------------------Continue on next page------------------------------------------------
+   YOUR ACCOUNT STATEMENT                                             ACCOUNT NO    : 0222-79016699-03 OF
+   FOR THE PERIOD ENDING: JAN01,2019 TO NOV09,2020                                    NOWSHERA-CANTT. BRANCH
+   RABIA TABASUM                                                      ACCOUNT TYPE  : ASAAN ACCOUNT (CURRE
+   ZHWANDOON WELFARE ORGINIZATION                                     CURRENCY      : Pakistan Rupee
+   OPP HOTEL GRAND NEAR ECS STREET                                    PRINTING DATE : 11-11-20
+   PESHAWAR                                                           FREQUENCY     : INTERIM / DUPLICATE
+                                                                      PAGE NO       :    4
+                                                                      USER          : IZ8401
+   -----------------------------------------------------------------------------------------------------------------
+   |DATE   |VALUE  |PARTICULARS                        |             DEBIT|            CREDIT|             BALANCE |
+   |-------|-------|-----------------------------------|------------------|------------------|---------------------|
+   |       |       |BROUGHT FORWARD                    |                  |                  |           23,222.95 |
+   |10JUN19|       |ATM Cash Withdra  4363771857580609 |          3,000.00|                  |           20,222.95 |
+   |       |       |UBL 1470        185758 0906 6216570|                  |                  |                     |
+   |10JUN19|       |ATM Switch Fee    3430311517500610 |             18.75|                  |           20,204.20 |
+   |       |       |                       917300343031|                  |                  |                     |
+   |10JUN19|       |ATM Switch Fee    4363771857580609 |             18.75|                  |           20,185.45 |
+   |       |       |                       916018436377|                  |                  |                     |
+   |19JUN19|       |ATM Cash Withdra  3396871209540619 |          5,000.00|                  |           15,185.45 |
+   |       |       |MCB 0957        120954 1906 6216570|                  |                  |                     |
+   |19JUN19|       |MNET Balance Inq  3331381209290619 |              2.50|                  |           15,182.95 |
+   |       |       |SWITCH BAL INQUIRY FEE 333138120929|                  |                  |                     |
+   |19JUN19|       |ATM Switch Fee    3396871209540619 |             18.75|                  |           15,164.20 |
+   |       |       |                       403600339687|                  |                  |                     |
+   |21JUN19|       |ATM Cash Withdra  1096942124300621 |          8,000.00|                  |            7,164.20 |
+   |       |       |NBP 0566        212430 2106 6216570|                  |                  |                     |
+   |21JUN19|       |ATM Switch Fee    1096942124300621 |             18.75|                  |            7,145.45 |
+   |       |       |                       2121        |                  |                  |                     |
+   |25JUN19|       |ATM Cash Withdra  6957831838430625 |          1,000.00|                  |            6,145.45 |
+   |       |       |UBL 1578        183843 2506 6216570|                  |                  |                     |
+   |25JUN19|       |ATM Switch Fee    6957831838430625 |             18.75|                  |            6,126.70 |
+   |       |       |                       917618695783|                  |                  |                     |
+   |26JUN19|       |ATM Cash Withdra  2910251910100626 |          2,000.00|                  |            4,126.70 |
+   |       |       |    0119        191010 2606 6216570|                  |                  |                     |
+   |26JUN19|       |ATM Switch Fee    2910251910100626 |             18.75|                  |            4,107.95 |
+   |       |       |                       917719291025|                  |                  |                     |
+   |28JUN19|       |ATM Cash Withdra  0904781600380628 |          1,000.00|                  |            3,107.95 |
+   |       |       |MBL 0604        160038 2806 6216570|                  |                  |                     |
+   |28JUN19|       |ATM Switch Fee    0904781600380628 |             18.75|                  |            3,089.20 |
+   |       |       |                       000000833990|                  |                  |                     |
+   |02JUL19|       |ATM Cash Withdra  7830961426370701 |          1,000.00|                  |            2,089.20 |
+   |       |       |ABL 0321        142637 0107 6216570|                  |                  |                     |
+   |02JUL19|       |ATM Switch Fee    7830961426370701 |             18.75|                  |            2,070.45 |
+   |       |       |                       918214783096|                  |                  |                     |
+   --------------------------------------------Continue on next page------------------------------------------------
+   YOUR ACCOUNT STATEMENT                                             ACCOUNT NO    : 0222-79016699-03 OF
+   FOR THE PERIOD ENDING: JAN01,2019 TO NOV09,2020                                    NOWSHERA-CANTT. BRANCH
+   RABIA TABASUM                                                      ACCOUNT TYPE  : ASAAN ACCOUNT (CURRE
+   ZHWANDOON WELFARE ORGINIZATION                                     CURRENCY      : Pakistan Rupee
+   OPP HOTEL GRAND NEAR ECS STREET                                    PRINTING DATE : 11-11-20
+   PESHAWAR                                                           FREQUENCY     : INTERIM / DUPLICATE
+                                                                      PAGE NO       :    5
+                                                                      USER          : IZ8401
+   -----------------------------------------------------------------------------------------------------------------
+   |DATE   |VALUE  |PARTICULARS                        |             DEBIT|            CREDIT|             BALANCE |
+   |-------|-------|-----------------------------------|------------------|------------------|---------------------|
+   |       |       |BROUGHT FORWARD                    |                  |                  |            2,070.45 |
+   |06JUL19|       |ATM Cash Withdra  5712251352490706 |          1,000.00|                  |            1,070.45 |
+   |       |       |UBL 0335        135249 0607 6216570|                  |                  |                     |
+   |06JUL19|       |MNET Balance Inq  8431952027200706 |              2.50|                  |            1,067.95 |
+   |       |       |SWITCH BAL INQUIRY FEE 843195202720|                  |                  |                     |
+   |06JUL19|       |ATM Switch Fee    5712251352490706 |             18.75|                  |            1,049.20 |
+   |       |       |                       918713571225|                  |                  |                     |
+   |08JUL19|       |Funds Transfer    8738732218050707 |                  |          5,000.00|            6,049.20 |
+   |       |       |FRM HBL 02227900682203 000066873873|                  |                  |                     |
+   |       |       |Thru Digital Banking               |                  |                  |                     |
+   |       |       |PK60HABB0002227900682203 FATEH ULLA|                  |                  |                     |
+   |09JUL19|       |ATM Cash Withdra  2606630752490709 |          4,000.00|                  |            2,049.20 |
+   |       |       |MEZ 0220        075249 0907 6216570|                  |                  |                     |
+   |09JUL19|       |ATM Switch Fee    2606630752490709 |             18.75|                  |            2,030.45 |
+   |       |       |                       000000009014|                  |                  |                     |
+   |10JUL19|       |ATM Cash Withdra  6994101816090710 |          1,000.00|                  |            1,030.45 |
+   |       |       |MBL 0604        181609 1007 6216570|                  |                  |                     |
+   |10JUL19|       |ATM Cash Withdra  6994491816490710 |            500.00|                  |              530.45 |
+   |       |       |MBL 0604        181649 1007 6216570|                  |                  |                     |
+   |10JUL19|       |ATM Switch Fee    6994101816090710 |             18.75|                  |              511.70 |
+   |       |       |                       000000513649|                  |                  |                     |
+   |10JUL19|       |ATM Switch Fee    6994491816490710 |             18.75|                  |              492.95 |
+   |       |       |                       000000513702|                  |                  |                     |
+   |11JUL19|       |Funds Transfer    7613491356340711 |                  |          2,000.00|            2,492.95 |
+   |       |       |FRM     33290467669    191920761349|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              UBANK|                  |                  |                     |
+   |       |       |33290467669              Abdul Wahe|                  |                  |                     |
+   |11JUL19|       |ATM Cash Withdra  4975201530380711 |          1,000.00|                  |            1,492.95 |
+   |       |       |MEZ 0222        153038 1107 6216570|                  |                  |                     |
+   |11JUL19|       |ATM Switch Fee    4975201530380711 |             18.75|                  |            1,474.20 |
+   |       |       |                       000000009065|                  |                  |                     |
+   |12JUL19|       |Funds Transfer    5244742154010712 |                  |            300.00|            1,774.20 |
+   |       |       |FRM     03239221165    006071524474|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              MMBL |                  |                  |                     |
+   |       |       |03239221165              AKRAM KHAN|                  |                  |                     |
+   --------------------------------------------Continue on next page------------------------------------------------
+   YOUR ACCOUNT STATEMENT                                             ACCOUNT NO    : 0222-79016699-03 OF
+   FOR THE PERIOD ENDING: JAN01,2019 TO NOV09,2020                                    NOWSHERA-CANTT. BRANCH
+   RABIA TABASUM                                                      ACCOUNT TYPE  : ASAAN ACCOUNT (CURRE
+   ZHWANDOON WELFARE ORGINIZATION                                     CURRENCY      : Pakistan Rupee
+   OPP HOTEL GRAND NEAR ECS STREET                                    PRINTING DATE : 11-11-20
+   PESHAWAR                                                           FREQUENCY     : INTERIM / DUPLICATE
+                                                                      PAGE NO       :    6
+                                                                      USER          : IZ8401
+   -----------------------------------------------------------------------------------------------------------------
+   |DATE   |VALUE  |PARTICULARS                        |             DEBIT|            CREDIT|             BALANCE |
+   |-------|-------|-----------------------------------|------------------|------------------|---------------------|
+   |       |       |BROUGHT FORWARD                    |                  |                  |            1,774.20 |
+   |12JUL19|       |ATM Cash Withdra  9866541844070712 |          1,000.00|                  |              774.20 |
+   |       |       |BAF 4291        184407 1207 6216570|                  |                  |                     |
+   |12JUL19|       |ATM Switch Fee    9866541844070712 |             18.75|                  |              755.45 |
+   |       |       |                       071218445870|                  |                  |                     |
+   |13JUL19|       |ATM Cash Withdra  2968650105470713 |            500.00|                  |              255.45 |
+   |       |       |BAH 0122        010547 1307 6216570|                  |                  |                     |
+   |13JUL19|       |ATM Switch Fee    2968650105470713 |             18.75|                  |              236.70 |
+   |       |       |                       919401296865|                  |                  |                     |
+   |19JUL19|       |Funds Transfer    9278892215370718 |                  |          6,000.00|            6,236.70 |
+   |       |       |FRM MEZ 07070103580253 919922927889|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              MBL  |                  |                  |                     |
+   |       |       |PK78MEZN0007070103580253 SABIR ALI |                  |                  |                     |
+   |19JUL19|       |ATM Cash Withdra  7278871140140719 |          6,000.00|                  |              236.70 |
+   |       |       |    0119        114014 1907 6216570|                  |                  |                     |
+   |19JUL19|       |ATM Switch Fee    7278871140140719 |             18.75|                  |              217.95 |
+   |       |       |                       920011727887|                  |                  |                     |
+   |09AUG19|       |Funds Transfer    6429812212310808 |                  |          3,000.00|            3,217.95 |
+   |       |       |FRM HBL 09107901821403 922022642981|                  |                  |                     |
+   |       |       |Thru ATM                           |                  |                  |                     |
+   |       |       |0                                  |                  |                  |                     |
+   |       |       |PK93HABB0009107901821403 NAVEED ISL|                  |                  |                     |
+   |09AUG19|       |MNET Balance Inq  6480282312580808 |              2.50|                  |            3,215.45 |
+   |       |       |SWITCH BAL INQUIRY FEE 648028231258|                  |                  |                     |
+   |09AUG19|       |MNET Balance Inq  6481722314070808 |              2.50|                  |            3,212.95 |
+   |       |       |SWITCH BAL INQUIRY FEE 648172231407|                  |                  |                     |
+   |10AUG19|       |ATM Cash Withdra  1417941523200810 |          2,000.00|                  |            1,212.95 |
+   |       |       |ASK 1084        152320 1008 6216570|                  |                  |                     |
+   |10AUG19|       |ATM Cash Withdra  1421471524340810 |            500.00|                  |              712.95 |
+   |       |       |ASK 1084        152434 1008 6216570|                  |                  |                     |
+   |10AUG19|       |MNET Balance Inq  1417241523080810 |              2.50|                  |              710.45 |
+   |       |       |SWITCH BAL INQUIRY FEE 141724152308|                  |                  |                     |
+   --------------------------------------------Continue on next page------------------------------------------------
+   YOUR ACCOUNT STATEMENT                                             ACCOUNT NO    : 0222-79016699-03 OF
+   FOR THE PERIOD ENDING: JAN01,2019 TO NOV09,2020                                    NOWSHERA-CANTT. BRANCH
+   RABIA TABASUM                                                      ACCOUNT TYPE  : ASAAN ACCOUNT (CURRE
+   ZHWANDOON WELFARE ORGINIZATION                                     CURRENCY      : Pakistan Rupee
+   OPP HOTEL GRAND NEAR ECS STREET                                    PRINTING DATE : 11-11-20
+   PESHAWAR                                                           FREQUENCY     : INTERIM / DUPLICATE
+                                                                      PAGE NO       :    7
+                                                                      USER          : IZ8401
+   -----------------------------------------------------------------------------------------------------------------
+   |DATE   |VALUE  |PARTICULARS                        |             DEBIT|            CREDIT|             BALANCE |
+   |-------|-------|-----------------------------------|------------------|------------------|---------------------|
+   |       |       |BROUGHT FORWARD                    |                  |                  |              710.45 |
+   |10AUG19|       |ATM Switch Fee    1417941523200810 |             18.75|                  |              691.70 |
+   |       |       |                       922215141794|                  |                  |                     |
+   |10AUG19|       |ATM Switch Fee    1421471524340810 |             18.75|                  |              672.95 |
+   |       |       |                       922215142147|                  |                  |                     |
+   |21AUG19|       |ATM Cash Withdra  3110712109350821 |            500.00|                  |              172.95 |
+   |       |       |    0119        210935 2108 6216570|                  |                  |                     |
+   |21AUG19|       |MNET Balance Inq  3110652109130821 |              2.50|                  |              170.45 |
+   |       |       |SWITCH BAL INQUIRY FEE 311065210913|                  |                  |                     |
+   |21AUG19|       |ATM Switch Fee    3110712109350821 |             18.75|                  |              151.70 |
+   |       |       |                       923321311071|                  |                  |                     |
+   |13SEP19|       |Funds Transfer    2345801154500913 |                  |          3,000.00|            3,151.70 |
+   |       |       |FRM HBL 02227901355603 950749234580|                  |                  |                     |
+   |       |       |Thru Digital Banking               |                  |                  |                     |
+   |       |       |PK37HABB0002227901355603 FATEH ULLA|                  |                  |                     |
+   |14SEP19|       |ATM Cash Withdra  7315261028130914 |          1,000.00|                  |            2,151.70 |
+   |       |       |    0119        102813 1409 6216570|                  |                  |                     |
+   |14SEP19|       |MNET Balance Inq  7315201027310914 |              2.50|                  |            2,149.20 |
+   |       |       |SWITCH BAL INQUIRY FEE 731520102731|                  |                  |                     |
+   |14SEP19|       |ATM Switch Fee    7315261028130914 |             18.75|                  |            2,130.45 |
+   |       |       |                       925710731526|                  |                  |                     |
+   |16SEP19|       |ATM Cash Withdra  3075181047290915 |          2,000.00|                  |              130.45 |
+   |       |       |ASK 1084        104729 1509 6216570|                  |                  |                     |
+   |16SEP19|       |ATM Switch Fee    3075181047290915 |             18.75|                  |              111.70 |
+   |       |       |                       925810307518|                  |                  |                     |
+   |25SEP19|       |Online Credit     8810936          |                  |          3,570.00|            3,681.70 |
+   |       |       |ALI RAZA                           |                  |                  |                     |
+   |       |       |03319928163                        |                  |                  |                     |
+   |       |       |1697                               |                  |                  |                     |
+   |25SEP19|       |ATM Cash Withdra  8985181305320925 |          2,000.00|                  |            1,681.70 |
+   |       |       |    0119        130532 2509 6216570|                  |                  |                     |
+   |25SEP19|       |ATM Switch Fee    8985181305320925 |             18.75|                  |            1,662.95 |
+   |       |       |                       926813898518|                  |                  |                     |
+   --------------------------------------------Continue on next page------------------------------------------------
+   YOUR ACCOUNT STATEMENT                                             ACCOUNT NO    : 0222-79016699-03 OF
+   FOR THE PERIOD ENDING: JAN01,2019 TO NOV09,2020                                    NOWSHERA-CANTT. BRANCH
+   RABIA TABASUM                                                      ACCOUNT TYPE  : ASAAN ACCOUNT (CURRE
+   ZHWANDOON WELFARE ORGINIZATION                                     CURRENCY      : Pakistan Rupee
+   OPP HOTEL GRAND NEAR ECS STREET                                    PRINTING DATE : 11-11-20
+   PESHAWAR                                                           FREQUENCY     : INTERIM / DUPLICATE
+                                                                      PAGE NO       :    8
+                                                                      USER          : IZ8401
+   -----------------------------------------------------------------------------------------------------------------
+   |DATE   |VALUE  |PARTICULARS                        |             DEBIT|            CREDIT|             BALANCE |
+   |-------|-------|-----------------------------------|------------------|------------------|---------------------|
+   |       |       |BROUGHT FORWARD                    |                  |                  |            1,662.95 |
+   |26SEP19|       |ATM Cash Withdra  9210971505290926 |            500.00|                  |            1,162.95 |
+   |       |       |    0119        150529 2609 6216570|                  |                  |                     |
+   |26SEP19|       |ATM Switch Fee    9210971505290926 |             18.75|                  |            1,144.20 |
+   |       |       |                       926915921097|                  |                  |                     |
+   |27SEP19|       |MNET Balance Inq  9416561533370927 |              2.50|                  |            1,141.70 |
+   |       |       |SWITCH BAL INQUIRY FEE 941656153337|                  |                  |                     |
+   |30SEP19|       |ATM Cash Withdra  9847961214050930 |          1,000.00|                  |              141.70 |
+   |       |       |    0119        121405 3009 6216570|                  |                  |                     |
+   |30SEP19|       |ATM Switch Fee    9847961214050930 |             18.75|                  |              122.95 |
+   |       |       |                       927312984796|                  |                  |                     |
+   |18NOV19|       |Funds Transfer    3499581539241118 |                  |        150,000.00|          150,122.95 |
+   |       |       |FRM UNB 0822394602     402935349957|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              SCB  |                  |                  |                     |
+   |19NOV19|       |Cash Withdrawl b  00000003         |        100,000.00|                  |           50,122.95 |
+   |19NOV19|       |Cash Withdrawl b  00000004         |         49,000.00|                  |            1,122.95 |
+   |20NOV19|19NOV19|WITH HOLDING TAX                   |            894.00|                  |              228.95 |
+   |       |       |WHT Deducted @ .600PER             |                  |                  |                     |
+   |       |       |WithHolding Tax on Cash Withdrawl  |                  |                  |                     |
+   |10APR20|       |MNET Balance Inq  7735851515360410 |              2.50|                  |              226.45 |
+   |       |       |SWITCH BAL INQUIRY FEE 773585151536|                  |                  |                     |
+   |11APR20|       |MNET Balance Inq  9293901201310411 |              2.50|                  |              223.95 |
+   |       |       |SWITCH BAL INQUIRY FEE 929390120131|                  |                  |                     |
+   |14APR20|       |MNET Balance Inq  4857211131510414 |              2.50|                  |              221.45 |
+   |       |       |SWITCH BAL INQUIRY FEE 485721113151|                  |                  |                     |
+   |15APR20|       |PRI Proceeds Inw  03610042000066   |                  |         26,000.00|           26,221.45 |
+   |       |       |200415RT000584                     |                  |                  |                     |
+   |       |       |200415RT000584                     |                  |                  |                     |
+   |       |       |ABL                                |                  |                  |                     |
+   |       |       |0010026490950013 SHAH MEER  MUHAMMA|                  |                  |                     |
+   |15APR20|       |ATM Cash Withdra  3333141934210415 |         25,000.00|                  |            1,221.45 |
+   |       |       |ASK 1084        193421 1504 6216570|                  |                  |                     |
+   --------------------------------------------Continue on next page------------------------------------------------
+   YOUR ACCOUNT STATEMENT                                             ACCOUNT NO    : 0222-79016699-03 OF
+   FOR THE PERIOD ENDING: JAN01,2019 TO NOV09,2020                                    NOWSHERA-CANTT. BRANCH
+   RABIA TABASUM                                                      ACCOUNT TYPE  : ASAAN ACCOUNT (CURRE
+   ZHWANDOON WELFARE ORGINIZATION                                     CURRENCY      : Pakistan Rupee
+   OPP HOTEL GRAND NEAR ECS STREET                                    PRINTING DATE : 11-11-20
+   PESHAWAR                                                           FREQUENCY     : INTERIM / DUPLICATE
+                                                                      PAGE NO       :    9
+                                                                      USER          : IZ8401
+   -----------------------------------------------------------------------------------------------------------------
+   |DATE   |VALUE  |PARTICULARS                        |             DEBIT|            CREDIT|             BALANCE |
+   |-------|-------|-----------------------------------|------------------|------------------|---------------------|
+   |       |       |BROUGHT FORWARD                    |                  |                  |            1,221.45 |
+   |15APR20|       |ATM Cash Withdra  3334941935200415 |          1,000.00|                  |              221.45 |
+   |       |       |ASK 1084        193520 1504 6216570|                  |                  |                     |
+   |15APR20|       |MNET Balance Inq  3332671934040415 |              2.50|                  |              218.95 |
+   |       |       |SWITCH BAL INQUIRY FEE 333267193404|                  |                  |                     |
+   |15APR20|       |MNET Balance Inq  8387621931480415 |              2.50|                  |              216.45 |
+   |       |       |SWITCH BAL INQUIRY FEE 838762193148|                  |                  |                     |
+   |15APR20|       |ATM Switch Fee    3333141934210415 |             18.75|                  |              197.70 |
+   |       |       |                       010619333314|                  |                  |                     |
+   |15APR20|       |ATM Switch Fee    3334941935200415 |             18.75|                  |              178.95 |
+   |       |       |                       010619333494|                  |                  |                     |
+   |27MAY20|       |Funds Transfer    7616691308500527 |                  |            500.00|              678.95 |
+   |       |       |FRM TAM 923369704636   761669200527|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              TMFB |                  |                  |                     |
+   |       |       |923369704636             RABIA TABA|                  |                  |                     |
+   |27MAY20|       |MNET Balance Inq  3069401154030527 |              2.50|                  |              676.45 |
+   |       |       |SWITCH BAL INQUIRY FEE 306940115403|                  |                  |                     |
+   |12JUN20|       |Funds Transfer    9417491348430612 |                  |         35,000.00|           35,676.45 |
+   |       |       |FRM UBL 18871887010800 222420941749|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              UBL  |                  |                  |                     |
+   |       |       |PK29UNIL0112188701080043 TRANS FAST|                  |                  |                     |
+   |12JUN20|       |ATM Cash Withdra  8785221829330612 |         20,000.00|                  |           15,676.45 |
+   |       |       |UBL 1470        182933 1206 6216570|                  |                  |                     |
+   |12JUN20|       |ATM Cash Withdra  8793481832210612 |         10,000.00|                  |            5,676.45 |
+   |       |       |UBL 1470        183221 1206 6216570|                  |                  |                     |
+   |12JUN20|       |MNET Balance Inq  8784361829160612 |              2.50|                  |            5,673.95 |
+   |       |       |SWITCH BAL INQUIRY FEE 878436182916|                  |                  |                     |
+   |12JUN20|       |ATM Switch Fee    8785221829330612 |             18.75|                  |            5,655.20 |
+   |       |       |                       016418878522|                  |                  |                     |
+   |12JUN20|       |ATM Switch Fee    8793481832210612 |             18.75|                  |            5,636.45 |
+   |       |       |                       016418879348|                  |                  |                     |
+   --------------------------------------------Continue on next page------------------------------------------------
+   YOUR ACCOUNT STATEMENT                                             ACCOUNT NO    : 0222-79016699-03 OF
+   FOR THE PERIOD ENDING: JAN01,2019 TO NOV09,2020                                    NOWSHERA-CANTT. BRANCH
+   RABIA TABASUM                                                      ACCOUNT TYPE  : ASAAN ACCOUNT (CURRE
+   ZHWANDOON WELFARE ORGINIZATION                                     CURRENCY      : Pakistan Rupee
+   OPP HOTEL GRAND NEAR ECS STREET                                    PRINTING DATE : 11-11-20
+   PESHAWAR                                                           FREQUENCY     : INTERIM / DUPLICATE
+                                                                      PAGE NO       :   10
+                                                                      USER          : IZ8401
+   -----------------------------------------------------------------------------------------------------------------
+   |DATE   |VALUE  |PARTICULARS                        |             DEBIT|            CREDIT|             BALANCE |
+   |-------|-------|-----------------------------------|------------------|------------------|---------------------|
+   |       |       |BROUGHT FORWARD                    |                  |                  |            5,636.45 |
+   |15JUN20|       |ATM Cash Withdra  2190201803240614 |          5,000.00|                  |              636.45 |
+   |       |       |UBL 1470        180324 1406 6216570|                  |                  |                     |
+   |15JUN20|       |ATM Switch Fee    2190201803240614 |             18.75|                  |              617.70 |
+   |       |       |                       016618219020|                  |                  |                     |
+   |10JUL20|       |Funds Transfer    3107571708420710 |                  |         36,176.00|           36,793.70 |
+   |       |       |FRM UBL 18871887010800 222422310757|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              UBL  |                  |                  |                     |
+   |       |       |PK29UNIL0112188701080043 TRANS FAST|                  |                  |                     |
+   |13JUL20|       |ATM Fee           0222-CF1BPK-001  |          1,437.50|                  |           35,356.20 |
+   |       |       |DEBIT CARD ANNUAL FEE FOR 2020     |                  |                  |                     |
+   |       |       |6216570017634931 A14               |                  |                  |                     |
+   |       |       |0017634931133717 LIEN CASE         |                  |                  |                     |
+   |17JUL20|       |Cash Withdrawl b  00000005         |          3,000.00|                  |           32,356.20 |
+   |       |       |SELF                               |                  |                  |                     |
+   |       |       |A02227901669903                    |                  |                  |                     |
+   |       |       |02                                 |                  |                  |                     |
+   |27JUL20|       |Online Cash With  00000007         |         30,000.00|                  |            2,356.20 |
+   |       |       |0267                               |                  |                  |                     |
+   |       |       |SELF                               |                  |                  |                     |
+   |       |       |A02227901669903                    |                  |                  |                     |
+   |       |       |03369704636                        |                  |                  |                     |
+   |27JUL20|       |Online Charges    0222-CF1BPK-001  |            426.00|                  |            1,930.20 |
+   |       |       |ONLINE FUND TRANSFER               |                  |                  |                     |
+   |09SEP20|       |ATM Cash Withdra  2658051225300909 |          1,500.00|                  |              430.20 |
+   |       |       |    0119        122530 0909 6216570|                  |                  |                     |
+   |09SEP20|       |ATM Switch Fee    2658051225300909 |             18.75|                  |              411.45 |
+   |       |       |                       025312265805|                  |                  |                     |
+   |14SEP20|       |Funds Transfer    3937131630020914 |                  |         20,000.00|           20,411.45 |
+   |       |       |FRM BKL 018200026009   025816393713|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              BOK  |                  |                  |                     |
+   |       |       |PK71KHYB0182000000026009           |                  |                  |                     |
+   --------------------------------------------Continue on next page------------------------------------------------
+   YOUR ACCOUNT STATEMENT                                             ACCOUNT NO    : 0222-79016699-03 OF
+   FOR THE PERIOD ENDING: JAN01,2019 TO NOV09,2020                                    NOWSHERA-CANTT. BRANCH
+   RABIA TABASUM                                                      ACCOUNT TYPE  : ASAAN ACCOUNT (CURRE
+   ZHWANDOON WELFARE ORGINIZATION                                     CURRENCY      : Pakistan Rupee
+   OPP HOTEL GRAND NEAR ECS STREET                                    PRINTING DATE : 11-11-20
+   PESHAWAR                                                           FREQUENCY     : INTERIM / DUPLICATE
+                                                                      PAGE NO       :   11
+                                                                      USER          : IZ8401
+   -----------------------------------------------------------------------------------------------------------------
+   |DATE   |VALUE  |PARTICULARS                        |             DEBIT|            CREDIT|             BALANCE |
+   |-------|-------|-----------------------------------|------------------|------------------|---------------------|
+   |       |       |BROUGHT FORWARD                    |                  |                  |           20,411.45 |
+   |14SEP20|       |ATM Cash Withdra  5662171825330914 |         15,000.00|                  |            5,411.45 |
+   |       |       |HBL 2253        182533 1409 6216570|                  |                  |                     |
+   |14SEP20|       |ATM Cash Withdra  5697111826420914 |          2,000.00|                  |            3,411.45 |
+   |       |       |HBL 2253        182642 1409 6216570|                  |                  |                     |
+   |14SEP20|       |Debit Card/POS    077499175000     |            969.00|                  |            2,442.45 |
+   |       |       |PKR 969.00      175000 1409 6216570|                  |                  |                     |
+   |       |       |RANCHERS                 ISLAMABAD |                  |                  |                     |
+   |15SEP20|       |Funds Transfer    4117591207220915 |                  |         80,000.00|           82,442.45 |
+   |       |       |FRM MEZ 08140103300155 411759411759|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              MBL  |                  |                  |                     |
+   |       |       |PK81MEZN0008140103300155 WAJAHAT JA|                  |                  |                     |
+   |15SEP20|       |Funds Transfer    8330561006490915 |                  |         20,000.00|          102,442.45 |
+   |       |       |FRM UBL 18871887010800 222222833056|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              UBL  |                  |                  |                     |
+   |       |       |PK29UNIL0112188701080043 TRANS FAST|                  |                  |                     |
+   |15SEP20|       |ATM Cash Withdra  8715751224460915 |         25,000.00|                  |           77,442.45 |
+   |       |       |HBL 2253        122446 1509 6216570|                  |                  |                     |
+   |15SEP20|       |ATM Cash Withdra  8755351226100915 |         25,000.00|                  |           52,442.45 |
+   |       |       |HBL 2253        122610 1509 6216570|                  |                  |                     |
+   |15SEP20|       |Funds Transfer    3203051229290915 |         25,000.00|                  |           27,442.45 |
+   |       |       |TO MEZ  08140103300155 939812320305|                  |                  |                     |
+   |       |       |Thru Digital Banking               |                  |                  |                     |
+   |       |       |                              MBL  |                  |                  |                     |
+   |       |       |PK81MEZN0008140103300155 WAJAHAT JA|                  |                  |                     |
+   |15SEP20|       |Funds Transfer    5125962336520914 |          1,000.00|                  |           26,442.45 |
+   |       |       |TO MEZ  08140103300155 928225512596|                  |                  |                     |
+   |       |       |Thru Digital Banking               |                  |                  |                     |
+   |       |       |                              MBL  |                  |                  |                     |
+   |       |       |PK81MEZN0008140103300155 WAJAHAT JA|                  |                  |                     |
+   |16SEP20|       |Funds Transfer    6035632017440916 |          1,500.00|                  |           24,942.45 |
+   |       |       |TO MEZ  08140103300155 943183603563|                  |                  |                     |
+   |       |       |Thru Digital Banking               |                  |                  |                     |
+   |       |       |                              MBL  |                  |                  |                     |
+   |       |       |PK81MEZN0008140103300155 WAJAHAT JA|                  |                  |                     |
+   --------------------------------------------Continue on next page------------------------------------------------
+   YOUR ACCOUNT STATEMENT                                             ACCOUNT NO    : 0222-79016699-03 OF
+   FOR THE PERIOD ENDING: JAN01,2019 TO NOV09,2020                                    NOWSHERA-CANTT. BRANCH
+   RABIA TABASUM                                                      ACCOUNT TYPE  : ASAAN ACCOUNT (CURRE
+   ZHWANDOON WELFARE ORGINIZATION                                     CURRENCY      : Pakistan Rupee
+   OPP HOTEL GRAND NEAR ECS STREET                                    PRINTING DATE : 11-11-20
+   PESHAWAR                                                           FREQUENCY     : INTERIM / DUPLICATE
+                                                                      PAGE NO       :   12
+                                                                      USER          : IZ8401
+   -----------------------------------------------------------------------------------------------------------------
+   |DATE   |VALUE  |PARTICULARS                        |             DEBIT|            CREDIT|             BALANCE |
+   |-------|-------|-----------------------------------|------------------|------------------|---------------------|
+   |       |       |BROUGHT FORWARD                    |                  |                  |           24,942.45 |
+   |16SEP20|       |Funds Transfer    6271201709380916 |          1,100.00|                  |           23,842.45 |
+   |       |       |TO TAM  03369704636    937592627120|                  |                  |                     |
+   |       |       |Thru Digital Banking               |                  |                  |                     |
+   |       |       |                              TMFB |                  |                  |                     |
+   |       |       |                         RABIA TABA|                  |                  |                     |
+   |16SEP20|       |Funds Transfer    8466720032580916 |         20,000.00|                  |            3,842.45 |
+   |       |       |TO BKL  018200026009   958380846672|                  |                  |                     |
+   |       |       |Thru Digital Banking               |                  |                  |                     |
+   |       |       |                              BOK  |                  |                  |                     |
+   |       |       |PK71KHYB0182000000026009 SYED MUSTA|                  |                  |                     |
+   |17SEP20|       |Debit Card/POS    436881195604     |            990.00|                  |            2,852.45 |
+   |       |       |PKR 990.00      195604 1709 6216570|                  |                  |                     |
+   |       |       |ENGLISH SHOE HOUSE       RAWALPINDI|                  |                  |                     |
+   |17SEP20|       |Funds Transfer    5077400005250917 |          2,500.00|                  |              352.45 |
+   |       |       |TO MEZ  08140103300155 957980507740|                  |                  |                     |
+   |       |       |Thru Digital Banking               |                  |                  |                     |
+   |       |       |                              MBL  |                  |                  |                     |
+   |       |       |PK81MEZN0008140103300155 WAJAHAT JA|                  |                  |                     |
+   |18SEP20|       |Funds Transfer    0910011710380918 |                  |            300.00|              652.45 |
+   |       |       |FRM TAM 923369704636   091001200918|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              TMFB |                  |                  |                     |
+   |       |       |923369704636             RABIA TABA|                  |                  |                     |
+   |18SEP20|       |Funds Transfer    4250731721280918 |            350.00|                  |              302.45 |
+   |       |       |TO MEZ  08140103300155 948178425073|                  |                  |                     |
+   |       |       |Thru Digital Banking               |                  |                  |                     |
+   |       |       |                              MBL  |                  |                  |                     |
+   |       |       |PK81MEZN0008140103300155 WAJAHAT JA|                  |                  |                     |
+   |21SEP20|       |Funds Transfer    8954221452580920 |                  |         10,000.00|           10,302.45 |
+   |       |       |FRM TAM 923369704636   895422200920|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              TMFB |                  |                  |                     |
+   |       |       |923369704636             RABIA TABA|                  |                  |                     |
+   --------------------------------------------Continue on next page------------------------------------------------
+   YOUR ACCOUNT STATEMENT                                             ACCOUNT NO    : 0222-79016699-03 OF
+   FOR THE PERIOD ENDING: JAN01,2019 TO NOV09,2020                                    NOWSHERA-CANTT. BRANCH
+   RABIA TABASUM                                                      ACCOUNT TYPE  : ASAAN ACCOUNT (CURRE
+   ZHWANDOON WELFARE ORGINIZATION                                     CURRENCY      : Pakistan Rupee
+   OPP HOTEL GRAND NEAR ECS STREET                                    PRINTING DATE : 11-11-20
+   PESHAWAR                                                           FREQUENCY     : INTERIM / DUPLICATE
+                                                                      PAGE NO       :   13
+                                                                      USER          : IZ8401
+   -----------------------------------------------------------------------------------------------------------------
+   |DATE   |VALUE  |PARTICULARS                        |             DEBIT|            CREDIT|             BALANCE |
+   |-------|-------|-----------------------------------|------------------|------------------|---------------------|
+   |       |       |BROUGHT FORWARD                    |                  |                  |           10,302.45 |
+   |21SEP20|       |DUP/REPLACEMENT   0222-CF1BPK-001  |            460.00|                  |            9,842.45 |
+   |       |       |DEBIT CARD ANNUAL FEE FOR 2020     |                  |                  |                     |
+   |       |       |6216570032925298 RB0               |                  |                  |                     |
+   |23SEP20|       |ATM Cash Withdra  2401931924350923 |          4,500.00|                  |            5,342.45 |
+   |       |       |HBL 2253        192435 2309 6216570|                  |                  |                     |
+   |23SEP20|       |Funds Transfer    8228101348080923 |          5,000.00|                  |              342.45 |
+   |       |       |TO TAM  03369704636    909493822810|                  |                  |                     |
+   |       |       |Thru Digital Banking               |                  |                  |                     |
+   |       |       |                              TMFB |                  |                  |                     |
+   |       |       |                         RABIA TABA|                  |                  |                     |
+   |28SEP20|       |Funds Transfer    1021421632380928 |                  |            500.00|              842.45 |
+   |       |       |FRM TAM 923369704636   102142200928|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              TMFB |                  |                  |                     |
+   |       |       |923369704636             RABIA TABA|                  |                  |                     |
+   |28SEP20|       |Funds Transfer    6215011215430927 |             30.00|                  |              812.45 |
+   |       |       |TO TAM  03369704636    942314621501|                  |                  |                     |
+   |       |       |Thru Digital Banking               |                  |                  |                     |
+   |       |       |                              TMFB |                  |                  |                     |
+   |       |       |                         RABIA TABA|                  |                  |                     |
+   |29SEP20|       |Funds Transfer    0935561828480929 |                  |            500.00|            1,312.45 |
+   |       |       |FRM TAM 923369704636   093556200929|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              TMFB |                  |                  |                     |
+   |       |       |923369704636             RABIA TABA|                  |                  |                     |
+   |30SEP20|       |Funds Transfer    2059021202260930 |             50.00|                  |            1,262.45 |
+   |       |       |FRM 02227901669903                 |                  |                  |                     |
+   |       |       |TO HBL 40667900001003              |                  |                  |                     |
+   |       |       |UFONE001 03329877946               |                  |                  |                     |
+   |       |       |thru Digital Banking               |                  |                  |                     |
+   |01OCT20|       |ATM Cash Withdra  8499971224381001 |          1,000.00|                  |              262.45 |
+   |       |       |    0119        122438 0110 6216570|                  |                  |                     |
+   --------------------------------------------Continue on next page------------------------------------------------
+   YOUR ACCOUNT STATEMENT                                             ACCOUNT NO    : 0222-79016699-03 OF
+   FOR THE PERIOD ENDING: JAN01,2019 TO NOV09,2020                                    NOWSHERA-CANTT. BRANCH
+   RABIA TABASUM                                                      ACCOUNT TYPE  : ASAAN ACCOUNT (CURRE
+   ZHWANDOON WELFARE ORGINIZATION                                     CURRENCY      : Pakistan Rupee
+   OPP HOTEL GRAND NEAR ECS STREET                                    PRINTING DATE : 11-11-20
+   PESHAWAR                                                           FREQUENCY     : INTERIM / DUPLICATE
+                                                                      PAGE NO       :   14
+                                                                      USER          : IZ8401
+   -----------------------------------------------------------------------------------------------------------------
+   |DATE   |VALUE  |PARTICULARS                        |             DEBIT|            CREDIT|             BALANCE |
+   |-------|-------|-----------------------------------|------------------|------------------|---------------------|
+   |       |       |BROUGHT FORWARD                    |                  |                  |              262.45 |
+   |01OCT20|       |ATM Switch Fee    8499971224381001 |             18.75|                  |              243.70 |
+   |       |       |                       027512849997|                  |                  |                     |
+   |08OCT20|       |Funds Transfer    7701970928111008 |                  |         10,000.00|           10,243.70 |
+   |       |       |FRM TAM 923369704636   770197201008|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              TMFB |                  |                  |                     |
+   |       |       |923369704636             RABIA TABA|                  |                  |                     |
+   |08OCT20|       |Debit Card/POS    461406175540     |          1,957.00|                  |            8,286.70 |
+   |       |       |PKR 1957.00     175540 0810 6216570|                  |                  |                     |
+   |       |       |MADINA CASH & CARRY    ISLAMABAD   |                  |                  |                     |
+   |09OCT20|       |ATM Cash Withdra  4634091008411009 |            500.00|                  |            7,786.70 |
+   |       |       |MEZ 3121        100841 0910 6216570|                  |                  |                     |
+   |09OCT20|       |ATM Switch Fee    4634091008411009 |             18.75|                  |            7,767.95 |
+   |       |       |                       000000000976|                  |                  |                     |
+   |10OCT20|       |Funds Transfer    0393591658161010 |                  |          1,000.00|            8,767.95 |
+   |       |       |FRM     03239525530    012693039359|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              MMBL |                  |                  |                     |
+   |       |       |03239525530              RABIA TABA|                  |                  |                     |
+   |10OCT20|       |Funds Transfer    1497970524101010 |                  |          8,000.00|           16,767.95 |
+   |       |       |FRM TAM 923369704636   149797201010|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              TMFB |                  |                  |                     |
+   |       |       |923369704636             RABIA TABA|                  |                  |                     |
+   |10OCT20|       |ATM Cash Withdra  9193170529101010 |         15,500.00|                  |            1,267.95 |
+   |       |       |BAH 0122        052910 1010 6216570|                  |                  |                     |
+   |10OCT20|       |MNET Balance Inq  1677111440241010 |              2.50|                  |            1,265.45 |
+   |       |       |SWITCH BAL INQUIRY FEE 167711144024|                  |                  |                     |
+   |10OCT20|       |ATM Switch Fee    9193170529101010 |             18.75|                  |            1,246.70 |
+   |       |       |                       028405919317|                  |                  |                     |
+   |12OCT20|       |Funds Transfer    8098261605281011 |                  |         20,000.00|           21,246.70 |
+   |       |       |FRM UBL 18871887010800 222426809826|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              UBL  |                  |                  |                     |
+   |       |       |PK29UNIL0112188701080043 TRANS FAST|                  |                  |                     |
+   --------------------------------------------Continue on next page------------------------------------------------
+   YOUR ACCOUNT STATEMENT                                             ACCOUNT NO    : 0222-79016699-03 OF
+   FOR THE PERIOD ENDING: JAN01,2019 TO NOV09,2020                                    NOWSHERA-CANTT. BRANCH
+   RABIA TABASUM                                                      ACCOUNT TYPE  : ASAAN ACCOUNT (CURRE
+   ZHWANDOON WELFARE ORGINIZATION                                     CURRENCY      : Pakistan Rupee
+   OPP HOTEL GRAND NEAR ECS STREET                                    PRINTING DATE : 11-11-20
+   PESHAWAR                                                           FREQUENCY     : INTERIM / DUPLICATE
+                                                                      PAGE NO       :   15
+                                                                      USER          : IZ8401
+   -----------------------------------------------------------------------------------------------------------------
+   |DATE   |VALUE  |PARTICULARS                        |             DEBIT|            CREDIT|             BALANCE |
+   |-------|-------|-----------------------------------|------------------|------------------|---------------------|
+   |       |       |BROUGHT FORWARD                    |                  |                  |           21,246.70 |
+   |12OCT20|       |Funds Transfer    8175120842121012 |                  |            500.00|           21,746.70 |
+   |       |       |FRM MEZ 08140103300155 817512817512|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              MBL  |                  |                  |                     |
+   |       |       |PK81MEZN0008140103300155 WAJAHAT JA|                  |                  |                     |
+   |12OCT20|       |ATM Cash Withdra  2038470845511012 |          1,500.00|                  |           20,246.70 |
+   |       |       |    0119        084551 1210 6216570|                  |                  |                     |
+   |12OCT20|       |Funds Transfer    4196301042411011 |          1,000.00|                  |           19,246.70 |
+   |       |       |TO TAM  03369704636    044982419630|                  |                  |                     |
+   |       |       |Thru Digital Banking               |                  |                  |                     |
+   |       |       |                              TMFB |                  |                  |                     |
+   |       |       |                         RABIA TABA|                  |                  |                     |
+   |12OCT20|       |Funds Transfer    5200761701451011 |          5,000.00|                  |           14,246.70 |
+   |       |       |TO MEZ  08140103300155 047721520076|                  |                  |                     |
+   |       |       |Thru Digital Banking               |                  |                  |                     |
+   |       |       |                              MBL  |                  |                  |                     |
+   |       |       |PK81MEZN0008140103300155 WAJAHAT JA|                  |                  |                     |
+   |12OCT20|       |ATM Switch Fee    2038470845511012 |             18.75|                  |           14,227.95 |
+   |       |       |                       028608203847|                  |                  |                     |
+   |13OCT20|       |ATM Cash Withdra  2605811552131013 |          7,000.00|                  |            7,227.95 |
+   |       |       |HBL 0222        155213 1310 6216570|                  |                  |                     |
+   |13OCT20|       |Funds Transfer    4177821419031013 |          3,500.00|                  |            3,727.95 |
+   |       |       |TO      4152147205     011092417782|                  |                  |                     |
+   |       |       |Thru Digital Banking               |                  |                  |                     |
+   |       |       |                              NBP  |                  |                  |                     |
+   |       |       |PK69NBPA2242004152147205 MARDAN INS|                  |                  |                     |
+   |16OCT20|       |Funds Transfer    2262510716561016 |            100.00|                  |            3,627.95 |
+   |       |       |FRM 02227901669903                 |                  |                  |                     |
+   |       |       |TO HBL 40667900011603              |                  |                  |                     |
+   |       |       |MBLINK01 03239525530               |                  |                  |                     |
+   |       |       |thru Digital Banking               |                  |                  |                     |
+   |21OCT20|       |ATM Cash Withdra  4591591819341021 |          1,000.00|                  |            2,627.95 |
+   |       |       |    0119        181934 2110 6216570|                  |                  |                     |
+   --------------------------------------------Continue on next page------------------------------------------------
+   YOUR ACCOUNT STATEMENT                                             ACCOUNT NO    : 0222-79016699-03 OF
+   FOR THE PERIOD ENDING: JAN01,2019 TO NOV09,2020                                    NOWSHERA-CANTT. BRANCH
+   RABIA TABASUM                                                      ACCOUNT TYPE  : ASAAN ACCOUNT (CURRE
+   ZHWANDOON WELFARE ORGINIZATION                                     CURRENCY      : Pakistan Rupee
+   OPP HOTEL GRAND NEAR ECS STREET                                    PRINTING DATE : 11-11-20
+   PESHAWAR                                                           FREQUENCY     : INTERIM / DUPLICATE
+                                                                      PAGE NO       :   16
+                                                                      USER          : IZ8401
+   -----------------------------------------------------------------------------------------------------------------
+   |DATE   |VALUE  |PARTICULARS                        |             DEBIT|            CREDIT|             BALANCE |
+   |-------|-------|-----------------------------------|------------------|------------------|---------------------|
+   |       |       |BROUGHT FORWARD                    |                  |                  |            2,627.95 |
+   |21OCT20|       |ATM Switch Fee    4591591819341021 |             18.75|                  |            2,609.20 |
+   |       |       |                       029518459159|                  |                  |                     |
+   |22OCT20|       |ATM Cash Withdra  4785081453251022 |          1,500.00|                  |            1,109.20 |
+   |       |       |    0119        145325 2210 6216570|                  |                  |                     |
+   |22OCT20|       |ATM Switch Fee    4785081453251022 |             18.75|                  |            1,090.45 |
+   |       |       |                       029614478508|                  |                  |                     |
+   |23OCT20|       |Funds Transfer    2627060943581023 |            500.00|                  |              590.45 |
+   |       |       |TO TAM  03369704636    035603262706|                  |                  |                     |
+   |       |       |Thru Digital Banking               |                  |                  |                     |
+   |       |       |                              TMFB |                  |                  |                     |
+   |       |       |                         RABIA TABA|                  |                  |                     |
+   |26OCT20|       |Funds Transfer    1330002105221025 |                  |          1,000.00|            1,590.45 |
+   |       |       |FRM MEZ 08140103300155 133000133000|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              MBL  |                  |                  |                     |
+   |       |       |PK81MEZN0008140103300155 WAJAHAT JA|                  |                  |                     |
+   |26OCT20|       |Funds Transfer    1511551714561026 |                  |            500.00|            2,090.45 |
+   |       |       |FRM TAM 923369704636   151155201026|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              TMFB |                  |                  |                     |
+   |       |       |923369704636             RABIA TABA|                  |                  |                     |
+   |26OCT20|       |ATM Cash Withdra  6476872126291025 |            500.00|                  |            1,590.45 |
+   |       |       |BAF 1461        212629 2510 6216570|                  |                  |                     |
+   |26OCT20|       |Debit Card/POS    483417212430     |            545.00|                  |            1,045.45 |
+   |       |       |PKR 545.00      212430 2510 6216570|                  |                  |                     |
+   |       |       |MED X PHARMACY           ISLAMABAD |                  |                  |                     |
+   |26OCT20|       |ATM Switch Fee    6476872126291025 |             18.75|                  |            1,026.70 |
+   |       |       |                       102521260111|                  |                  |                     |
+   |28OCT20|       |ATM Cash Withdra  2330811027481028 |            500.00|                  |              526.70 |
+   |       |       |HBL 2253        102748 2810 6216570|                  |                  |                     |
+   |29OCT20|       |Funds Transfer    4966632006431029 |                  |          3,500.00|            4,026.70 |
+   |       |       |FRM TAM 923369704636   496663201029|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              TMFB |                  |                  |                     |
+   |       |       |923369704636             RABIA TABA|                  |                  |                     |
+   --------------------------------------------Continue on next page------------------------------------------------
+   YOUR ACCOUNT STATEMENT                                             ACCOUNT NO    : 0222-79016699-03 OF
+   FOR THE PERIOD ENDING: JAN01,2019 TO NOV09,2020                                    NOWSHERA-CANTT. BRANCH
+   RABIA TABASUM                                                      ACCOUNT TYPE  : ASAAN ACCOUNT (CURRE
+   ZHWANDOON WELFARE ORGINIZATION                                     CURRENCY      : Pakistan Rupee
+   OPP HOTEL GRAND NEAR ECS STREET                                    PRINTING DATE : 11-11-20
+   PESHAWAR                                                           FREQUENCY     : INTERIM / DUPLICATE
+                                                                      PAGE NO       :   17
+                                                                      USER          : IZ8401
+   -----------------------------------------------------------------------------------------------------------------
+   |DATE   |VALUE  |PARTICULARS                        |             DEBIT|            CREDIT|             BALANCE |
+   |-------|-------|-----------------------------------|------------------|------------------|---------------------|
+   |       |       |BROUGHT FORWARD                    |                  |                  |            4,026.70 |
+   |29OCT20|       |Funds Transfer    7542812004351029 |                  |          6,500.00|           10,526.70 |
+   |       |       |FRM MEZ 08140103300155 754281754281|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              MBL  |                  |                  |                     |
+   |       |       |PK81MEZN0008140103300155 WAJAHAT JA|                  |                  |                     |
+   |29OCT20|       |ATM Cash Withdra  6867262011181029 |         10,000.00|                  |              526.70 |
+   |       |       |    0119        201118 2910 6216570|                  |                  |                     |
+   |29OCT20|       |ATM Switch Fee    6867262011181029 |             18.75|                  |              507.95 |
+   |       |       |                       030320686726|                  |                  |                     |
+   |02NOV20|       |PRI Proceeds Inw  RAE68367         |                  |         22,000.00|           22,507.95 |
+   |       |       |201102RT000741                     |                  |                  |                     |
+   |       |       |201102RT000741                     |                  |                  |                     |
+   |       |       |ABL                                |                  |                  |                     |
+   |       |       |0010035123390028 SHAHAB HUSSAIN  FA|                  |                  |                     |
+   |02NOV20|       |Funds Transfer    2320201731531102 |          6,500.00|                  |           16,007.95 |
+   |       |       |TO MEZ  08140103300155 132671232020|                  |                  |                     |
+   |       |       |Thru Digital Banking               |                  |                  |                     |
+   |       |       |                              MBL  |                  |                  |                     |
+   |       |       |PK81MEZN0008140103300155 WAJAHAT JA|                  |                  |                     |
+   |03NOV20|       |Funds Transfer    3339401757171103 |          5,000.00|                  |           11,007.95 |
+   |       |       |TO TAM  03369704636    119320333940|                  |                  |                     |
+   |       |       |Thru Digital Banking               |                  |                  |                     |
+   |       |       |                              TMFB |                  |                  |                     |
+   |       |       |                         RABIA TABA|                  |                  |                     |
+   |04NOV20|       |ATM Cash Withdra  8517240930331104 |         10,500.00|                  |              507.95 |
+   |       |       |    0119        093033 0411 6216570|                  |                  |                     |
+   |04NOV20|       |ATM Switch Fee    8517240930331104 |             18.75|                  |              489.20 |
+   |       |       |                       030909851724|                  |                  |                     |
+   |05NOV20|       |Funds Transfer    0967481544021105 |                  |             15.00|              504.20 |
+   |       |       |FRM TAM 923369704636   096748201105|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              TMFB |                  |                  |                     |
+   |       |       |923369704636             RABIA TABA|                  |                  |                     |
+   --------------------------------------------Continue on next page------------------------------------------------
+   YOUR ACCOUNT STATEMENT                                             ACCOUNT NO    : 0222-79016699-03 OF
+   FOR THE PERIOD ENDING: JAN01,2019 TO NOV09,2020                                    NOWSHERA-CANTT. BRANCH
+   RABIA TABASUM                                                      ACCOUNT TYPE  : ASAAN ACCOUNT (CURRE
+   ZHWANDOON WELFARE ORGINIZATION                                     CURRENCY      : Pakistan Rupee
+   OPP HOTEL GRAND NEAR ECS STREET                                    PRINTING DATE : 11-11-20
+   PESHAWAR                                                           FREQUENCY     : INTERIM / DUPLICATE
+                                                                      PAGE NO       :   18
+                                                                      USER          : IZ8401
+   -----------------------------------------------------------------------------------------------------------------
+   |DATE   |VALUE  |PARTICULARS                        |             DEBIT|            CREDIT|             BALANCE |
+   |-------|-------|-----------------------------------|------------------|------------------|---------------------|
+   |       |       |BROUGHT FORWARD                    |                  |                  |              504.20 |
+   |07NOV20|       |Funds Transfer    5716891203041107 |                  |            500.00|            1,004.20 |
+   |       |       |FRM TAM 923369704636   571689201107|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              TMFB |                  |                  |                     |
+   |       |       |923369704636             RABIA TABA|                  |                  |                     |
+   |07NOV20|       |ATM Cash Withdra  8180431258301107 |            500.00|                  |              504.20 |
+   |       |       |HBL 5041        125830 0711 6216570|                  |                  |                     |
+   |09NOV20|       |Funds Transfer    2917781723451109 |                  |            500.00|            1,004.20 |
+   |       |       |FRM TAM 923369704636   291778201109|                  |                  |                     |
+   |       |       |Thru 1-LINK SWITCH                 |                  |                  |                     |
+   |       |       |                              TMFB |                  |                  |                     |
+   |       |       |923369704636             RABIA TABA|                  |                  |                     |
+   -----------------------------------------------------------------------------------------------------------------
+                Opening balance                                                    102,206.45
+                Total Debit Transactions                                                  173
+                Total Amount Debited                                               782,178.25-
+                Total Credit Transactions                                                  36
+                Total Amount Credited                                              680,976.00
+                Closing Balance                                                      1,004.20
+   -----------------------------------------------End of statement---------------------------------------------------
