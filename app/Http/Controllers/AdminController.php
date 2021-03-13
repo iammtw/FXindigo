@@ -360,9 +360,17 @@ class AdminController extends Controller
 
     public function accountRequests()
     {
+        return view("admin.account-deposits");
+    }
+    
+    public function depositRequests(){
         $deposits = Account_deposit::all();
-        $withdraws = Account_withdraw::all();
-        return view("admin.account-deposits", compact('deposits', 'withdraws'));
+        return view("admin.deposit-requests", compact('deposits'));
+    }
+    
+     public function withdrawRequests(){
+         $withdraws = Account_withdraw::all();
+         return view("admin.withdraw-requests", compact('$withdraws'));
     }
 
     public function accountID(Request $req, $id)

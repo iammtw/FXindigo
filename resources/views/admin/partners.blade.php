@@ -19,6 +19,7 @@
                     <tr>
                       <th> # </th>
                       <th>Username</th>
+                      <th>User ID</th>
                       <th>Code</th>
                       {{-- <th>Link</th> --}}
                       <th> Current Bonus </th>
@@ -40,6 +41,7 @@
                    <tr>
                      <td> {{ $i }} </td>
                    <td> {{ App\User::find($partner->user_id)->username }} </td>
+                   <td> {{ App\User::find($partner->user_id)->client_id }} </td>
                    <td> <b>{{ $partner->code }}</b></td>
                    {{-- <td> {{ url('/register?refferal='.$partner->code) }} </td> --}}
                    <td> {{ round(App\Partner::find($partner->id)->bonus,3) }}</td>

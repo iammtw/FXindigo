@@ -67,6 +67,8 @@ Route::get('admin/user-doc-status/{id}/{option}', 'AdminController@docStatus')->
 Route::get('admin/account-deposit/{depositId}/{id}/{option}/{amount}', 'AdminController@accountDepositOption')->middleware('auth', 'admin');
 Route::get('admin/account-withdraw/{depositId}/{id}/{option}/{amount}', 'AdminController@accountwithdrawOption')->middleware('auth', 'admin');
 Route::get('admin/account-requests', 'AdminController@accountRequests')->middleware('auth', 'employee');
+Route::get('admin/deposit-requests', 'AdminController@depositRequests')->middleware('auth', 'employee');
+Route::get('admin/withdraw-requests', 'AdminController@withdrawRequests')->middleware('auth', 'employee');
 
 Route::get('admin/trading-accounts', 'AdminController@tradingAccounts')->middleware('auth', 'employee');
 Route::post('admin/trading-account/{id}/', 'AdminController@accountID')->middleware('auth', 'admin');

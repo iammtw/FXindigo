@@ -21,6 +21,8 @@
                       <th>Balance</th>
                       <th>Documents</th>
                       <th>Documents Status</th>
+                      <th>Ref by</th>
+                      <th>Time / Date</th>
                       {{-- <th> KFC </th> --}}
                       <th> Trading Accounts </th>
                       @if (App\User::find(Auth::id())->role == "admin")
@@ -65,6 +67,12 @@
 
                       
                    </td>
+                   <td> {{ $user->referred }} </td>
+                   <td> 
+                     {{ $user->created_at->format('H:m:i') }} 
+                        <br> 
+                      {{ $user->created_at->format('d-m-y') }} 
+                  </td>
                    <td>
                     <a href="{{ url('admin/users/'.$user->id.'/accounts') }}">View </a>
                    </td>
