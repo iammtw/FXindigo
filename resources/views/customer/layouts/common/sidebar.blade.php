@@ -86,7 +86,17 @@ if ($status == "Verified"){
       <a class="collapse-item" href=" {{ url('/customer/demo-account') }} ">Demo Accounts</a>
       <a class="collapse-item" href="{{ url('/customer/account') }}">Create new Real Account</a>
       <a class="collapse-item" href=" {{ url('customer/select-account') }} ">My Accounts</a>
-      <a class="collapse-item" href=" {{ url('customer/partner-accounts') }} ">Partner Accounts</a>
+      <?php
+      
+      $code = App\Partner::where('user_id',auth::id())->first();
+      if($code != null){ 
+        if($code->code != null){ ?>
+            <a class="collapse-item" href=" {{ url('customer/partner-accounts') }} ">Partner Accounts</a>  <?php  
+        }
+      }
+      
+      
+      ?>
       
     </div>
   </div>

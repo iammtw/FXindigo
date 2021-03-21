@@ -13,7 +13,7 @@
               <div class="col">
                 <div class="text-center display-5 font-weight-bold text-white text-capitalize" >
                   <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-                  You're not verified yet, Please upload documents!!
+                  You're not verified yet, <a href="{{ url('customer/verification') }}" style="color:white;text-decoration:underline">Please upload documents</a> !!
                 </div>
                 
               </div>
