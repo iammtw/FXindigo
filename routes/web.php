@@ -138,4 +138,9 @@ Route::post('customer/demo-account', 'CustomerController@demoAccountDb')->middle
 Route::get('customer/partner-accounts', 'CustomerController@partnerAccounts')->middleware('auth', 'customer');
 Route::get('customer/partner-accounts/{id}', 'CustomerController@partnerAccountsDb')->middleware('auth', 'customer');
 
-
+Route::get('customer/payment/add', 'CustomerController@addPayment')->middleware('auth', 'customer');
+Route::get('customer/payment/{type}', 'CustomerController@payment')->middleware('auth', 'customer');
+Route::post('customer/payment/email', 'CustomerController@emailPayment')->middleware('auth', 'customer');
+Route::post('customer/payment/number', 'CustomerController@numberPayment')->middleware('auth', 'customer');
+Route::post('customer/payment/bank', 'CustomerController@bankPayment')->middleware('auth', 'customer');
+Route::get('customer/payments', 'CustomerController@allPayments')->middleware('auth', 'customer');

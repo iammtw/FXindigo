@@ -14,6 +14,7 @@ use App\Document;
 use App\Form;
 use App\History;
 use App\Partner;
+use App\Payment;
 use App\User;
 use App\Withdraw;
 use Illuminate\Http\Request;
@@ -126,8 +127,8 @@ class CustomerController extends Controller
         $withdraw = Withdraw::find($id);
         if ($withdraw) {
             $balance = balance::where('user_id', Auth::id())->first();
-            if($withdraw->status != "Declined"){
-                 $balance->amount = $balance->amount + $withdraw->amount;
+            if ($withdraw->status != "Declined") {
+                $balance->amount = $balance->amount + $withdraw->amount;
             }
             $balance->save();
             $withdraw->delete();
@@ -236,8 +237,8 @@ class CustomerController extends Controller
 
     public function selection($accountId)
     {
-        if(isset($_GET['p'])){
-             return redirect('customer/account/' . $accountId . '/options?p=d3d9446802a44259755d38e6d163e820');
+        if (isset($_GET['p'])) {
+            return redirect('customer/account/' . $accountId . '/options?p=d3d9446802a44259755d38e6d163e820');
         }
         return redirect('customer/account/' . $accountId . '/options');
     }
@@ -279,7 +280,6 @@ class CustomerController extends Controller
 
             $account->balance = $account->balance + $amount;
 
-           
             $balance->amount = $balance->amount - $amount;
             $balance->save();
 
@@ -318,8 +318,8 @@ class CustomerController extends Controller
         $deposit = Account_deposit::find($id);
         if ($deposit) {
             $balance = balance::where('user_id', Auth::id())->first();
-            if($deposit->status != "Declined"){
-                 $balance->amount = $balance->amount + $deposit->amount;
+            if ($deposit->status != "Declined") {
+                $balance->amount = $balance->amount + $deposit->amount;
             }
             $balance->save();
             $deposit->delete();
@@ -537,6 +537,87 @@ class CustomerController extends Controller
     {
         $accounts = Account::where('user_id', $id)->where('status', null)->get();
         return view('customer.accounts.partner-accounts', compact('accounts'));
+    }
+
+    public function addPayment()
+    {
+        return view('customer.payment.add');
+    }
+
+    public function payment($type)
+    {
+        if ($type == "email") {
+            return view('customer.payment.email');
+        }
+        if ($type == "bank") {
+            return view('customer.payment.bank');
+        }
+        if ($type == "number") {
+            return view('customer.payment.number');
+        }
+    }
+
+    public function emailPayment(Request $req)
+    {
+
+        if (Payment::where('user_id', auth::id())->count() >= 2) {
+            return redirect()->back()->with('msg', 'Sorry, you cannot add more than 2 payment methods!');
+        }
+
+        $payment = new Payment;
+        $payment->user_id = Auth::id();
+        $payment->account_holder = $req->account_holder;
+        $payment->account_number = $req->email;
+        $payment->type = $req->type;
+        $payment->save();
+        return redirect()->back()->with('msg', 'Successfully Added!');
+    }
+
+    public function numberPayment(Request $req)
+    {
+
+        if (Payment::where('user_id', auth::id())->count() >= 2) {
+            return redirect()->back()->with('msg', 'Sorry, you cannot add more than 2 payment methods!');
+        }
+
+        $payment = new Payment;
+        $payment->user_id = Auth::id();
+        $payment->account_holder = $req->account_holder;
+        $payment->account_number = $req->number;
+        $payment->type = $req->type;
+        $payment->save();
+        return redirect()->back()->with('msg', 'Successfully Added!');
+    }
+
+    public function bankPayment(Request $req)
+    {
+
+        if (Payment::where('user_id', auth::id())->count() >= 2) {
+            return redirect()->back()->with('msg', 'Sorry, you cannot add more than 2 payment methods!');
+        }
+
+        $payment = new Payment;
+        $payment->user_id = Auth::id();
+        $payment->bank_name = $req->bank_name;
+        $payment->bank_branch_code = $req->bank_branch_code;
+        $payment->account_holder = $req->account_holder;
+        $payment->account_number = $req->account_number;
+        $payment->iban = $req->iban;
+        $payment->type = "Bank";
+        $payment->save();
+        return redirect('customer/payments')->with('msg', 'Successfully Added!');
+    }
+
+    public function allPayments()
+    {
+        $payments = Payment::where('user_id', Auth::id())->get();
+        return view('customer.payment.payments', compact('payments'));
+    }
+
+    public function paymentDetail($id)
+    {
+        $payment = Payment::where('user_id', Auth::id())->where('id', $id)->first();
+        return view('customer.payment.details', compact('payment'));
     }
 
 }

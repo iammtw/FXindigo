@@ -132,6 +132,11 @@ if ($status == "Verified"){
        <a class="collapse-item" href="{{ url('customer/change-password') }}">Change Password</a>
        <a class="collapse-item" href=" {{ url('customer/verification') }} ">Documents</a>
        <a class="collapse-item" href=" {{ url('customer/profile') }} ">Profile</a>
+       <a class="collapse-item" href=" {{ url('customer/payments') }} ">Payments</a>
+       {{-- <hr class="divider">
+       <a class="collapse-item" href=" {{ url('customer/payment/bank') }} ">Add Bank Details</a>
+       <a class="collapse-item" href=" {{ url('customer/payment/email') }} ">Perfect Money / Skrill</a>
+       <a class="collapse-item" href=" {{ url('customer/payment/number') }} ">Easypaisa / Jazzcash</a> --}}
      </div>
    </div>
  </li>
