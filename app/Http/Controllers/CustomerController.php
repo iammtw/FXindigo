@@ -83,7 +83,8 @@ class CustomerController extends Controller
 
     public function addWithdraw()
     {
-        return view('customer.withdraw');
+        $payments = Payment::where('user_id', Auth::id())->get();
+        return view('customer.withdraw', compact('payments'));
     }
 
     public function addWithdrawdb(Request $req)
@@ -618,6 +619,17 @@ class CustomerController extends Controller
     {
         $payment = Payment::where('user_id', Auth::id())->where('id', $id)->first();
         return view('customer.payment.details', compact('payment'));
+    }
+
+    public function deletePayment($id)
+    {
+        $payment = Payment::where('id', $id)->where('user_id', Auth::id())->first();
+        if ($payment != null) {
+            $payment->delete();
+            return redirect()->back()->with('msg', 'Successfully Deleted');
+        } else {
+            return redirect()->back()->with('msg', 'Sorry, This payment method not exist!');
+        }
     }
 
 }

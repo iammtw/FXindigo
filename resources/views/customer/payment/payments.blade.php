@@ -33,6 +33,7 @@
                             <th>Type</th>
                             <th>Account Holder</th>
                             <th>Account Number</th>
+                            <th>Action</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -41,6 +42,9 @@
                         <td>{{ $payment->type }}</td>
                         <td>{{ $payment->account_holder }}</td>
                         <td>{{ $payment->account_number }}</td>
+                        <td>
+                            <a href="{{ url('customer/payments/delete/'.$payment->id) }}" onclick="return confirm('Are you sure you want to delete?');"  class="btn btn-danger">Delete</a>
+                        </td>
                         
                         </tr>
                         @endforeach

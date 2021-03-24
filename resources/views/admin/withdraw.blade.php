@@ -45,6 +45,10 @@
                     <td>
                     <a href="{{ url('admin/withdraw/approve/'.$withdraw->id) }}" class="btn btn-success">Approve</a>
                     <a href="{{ url('admin/withdraw/decline/'.$withdraw->id) }}" class="btn btn-danger">Decline</a>
+                    <a href="{{url('admin/payment-options/'.$withdraw->user_id)}}" class="btn btn-info" >
+                      <i class="fa fa-eye" aria-hidden="true"></i>
+                       Payment Details
+                    </a>
                     </td>
                     @endif
                   </tr>
@@ -55,4 +59,6 @@
               </div>
             </div>
           </div>
-          @endsection
+
+
+@endsection

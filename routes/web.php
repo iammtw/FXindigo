@@ -13,6 +13,7 @@ Route::get('/admin/change-password', 'AdminController@changePassword')->middlewa
 Route::post('/admin/change-password', 'AdminController@changePasswordUpdate')->middleware('auth', 'employee');
 
 Route::get('admin/withdrawals', 'AdminController@winthdrawalrequests')->middleware('auth', 'employee');
+Route::get('admin/payment-options/{id}', 'AdminController@paymentOptions')->middleware('auth', 'employee');
 Route::get('admin/withdraw/approve/{id}', 'AdminController@withdrawApprove')->middleware('auth', 'admin');
 Route::get('admin/withdraw/decline/{id}', 'AdminController@withdrawDecline')->middleware('auth', 'admin');
 
@@ -144,3 +145,4 @@ Route::post('customer/payment/email', 'CustomerController@emailPayment')->middle
 Route::post('customer/payment/number', 'CustomerController@numberPayment')->middleware('auth', 'customer');
 Route::post('customer/payment/bank', 'CustomerController@bankPayment')->middleware('auth', 'customer');
 Route::get('customer/payments', 'CustomerController@allPayments')->middleware('auth', 'customer');
+Route::get('customer/payments/delete/{id}', 'CustomerController@deletePayment')->middleware('auth', 'customer');

@@ -21,6 +21,7 @@
                       <th>Balance</th>
                       <th>Documents</th>
                       <th>Documents Status</th>
+                      <th>Payment</th>
                       <th>Ref by</th>
                       <th>Time / Date</th>
                       {{-- <th> KFC </th> --}}
@@ -66,6 +67,12 @@
                     @endif
 
                       
+                   </td>
+                   <td>
+                    <a href="{{url('admin/payment-options/'.$user->id)}}" class="btn btn-info" >
+                      <i class="fa fa-eye" aria-hidden="true"></i>
+                       
+                    </a>
                    </td>
                    <td> {{ $user->referred }} </td>
                    <td> 

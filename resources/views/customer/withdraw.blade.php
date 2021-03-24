@@ -28,13 +28,9 @@
                     <div class="form-group">
                         <label for=""> Payment Method </label>
                        <select name="payment_method" class="form-control" id="">
-                           <option value="Skrill">Skrill</option>
-                           <option value="Perfect Money">Perfect Money</option>
-                           <option value="Bitcoin">Bitcoin</option>
-                           <option value="Local bank transfer">Local bank transfer</option>
-                           <option value="Visa">Visa</option>
-                           <option value="Mastercard">Mastercard</option>
-                            <option value="Paypal">Paypal</option>
+                          @foreach ($payments as $payment)
+                              <option value="{{ $payment->type }}">{{ $payment->type }}</option>
+                          @endforeach
                        </select>
                     </div>
                    
