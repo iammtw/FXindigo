@@ -19,6 +19,9 @@
                       <th>Type</th>
                       <th>Account Holder</th>
                       <th>Account Number</th>
+                      <th>Bank Name</th>
+                      <th>Branch Code</th>
+                      <th>IBAN</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -30,6 +33,9 @@
                         <td>{{ $payment->type }}</td>
                         <td>{{ $payment->account_holder }}</td>
                         <td>{{ $payment->account_number }}</td>
+                        <td>{{ $payment->bank_name }}</td>
+                        <td>{{ $payment->bank_branch_code }}</td>
+                        <td>{{ $payment->iban }}</td>
                     </tr>
                    @endforeach
                   </tbody>
