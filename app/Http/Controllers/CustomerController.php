@@ -556,6 +556,9 @@ class CustomerController extends Controller
         if ($type == "number") {
             return view('customer.payment.number');
         }
+        if ($type == "pm") {
+            return view('customer.payment.pm');
+        }
     }
 
     public function emailPayment(Request $req)
@@ -605,6 +608,21 @@ class CustomerController extends Controller
         $payment->account_number = $req->account_number;
         $payment->iban = $req->iban;
         $payment->type = "Bank";
+        $payment->save();
+        return redirect('customer/payments')->with('msg', 'Successfully Added!');
+    }
+    public function pm(Request $req)
+    {
+
+        if (Payment::where('user_id', auth::id())->count() >= 2) {
+            return redirect()->back()->with('msg', 'Sorry, you cannot add more than 2 payment methods!');
+        }
+
+        $payment = new Payment;
+        $payment->user_id = Auth::id();
+        $payment->account_holder = $req->account_holder;
+        $payment->account_number = $req->account_number;
+        $payment->type = "Perfect Money";
         $payment->save();
         return redirect('customer/payments')->with('msg', 'Successfully Added!');
     }

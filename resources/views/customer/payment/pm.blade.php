@@ -13,18 +13,9 @@
                 </div>
 
                 <div class="card-body">
-                    Choose your Payment Method Then Add it's information.
-                    <br> <br>
                     
-                <form action="{{ url('customer/payment/email') }}" method="post" >
+                <form action="{{ url('customer/payment/pm') }}" method="post" >
                     @csrf
-
-                    <div class="form-group">
-                        <label for="">Payment Type</label>
-                        <select name="type" class="form-control" id="">
-                            <option value="Skrill">Skrill</option>
-                        </select>
-                    </div>
 
                     <div class="form-group">
                         
@@ -34,8 +25,8 @@
                     </div>
                     <div class="form-group">
                         
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email here..">
+                        <label for="text">Account ID</label>
+                        <input type="text" id="text" name="account_number" class="form-control" placeholder="Enter your ID here..">
 
                     </div> 
                     

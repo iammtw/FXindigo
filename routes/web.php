@@ -144,5 +144,6 @@ Route::get('customer/payment/{type}', 'CustomerController@payment')->middleware(
 Route::post('customer/payment/email', 'CustomerController@emailPayment')->middleware('auth', 'customer');
 Route::post('customer/payment/number', 'CustomerController@numberPayment')->middleware('auth', 'customer');
 Route::post('customer/payment/bank', 'CustomerController@bankPayment')->middleware('auth', 'customer');
+Route::post('customer/payment/pm', 'CustomerController@pm')->middleware('auth', 'customer');
 Route::get('customer/payments', 'CustomerController@allPayments')->middleware('auth', 'customer');
 Route::get('customer/payments/delete/{id}', 'CustomerController@deletePayment')->middleware('auth', 'customer');
