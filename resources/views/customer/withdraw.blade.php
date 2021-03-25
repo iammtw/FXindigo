@@ -9,8 +9,15 @@
     <div class="card shadow mt-4 mb-4">
         <div class="card-header py-3">
         <h6 class="m-0 font-weight-bold text-primary">Withdraw</h6>
+        <a href="{{ url('customer/payment/add') }}" class="btn btn-primary float-right">Add Payment Method</a>
+        
+        @if(App\Payment::where('user_id',auth::id())->count() == 0)
+            <span class="alert alert-danger" style="margin-left: 310px;"> You don't have any payment method yet! </span>
+        @endif
+        
         </div>
         <div class="card-body">
+            
            <div class="row">
                <div class="col-md-6 offset-3">
                 <form action="{{ url('customer/add-withdraw') }}" method="post">

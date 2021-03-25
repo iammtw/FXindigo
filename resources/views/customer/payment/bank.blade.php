@@ -9,7 +9,7 @@
         <div class="col-lg-12 col-md-12 col-sm-6">
             <div class="card shadow mt-4 mb-4">
                 <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Update your Payment information</h6>
+                    <h6 class="m-0 font-weight-bold text-primary">Add your Bank Details</h6>
                 </div>
 
                 <div class="card-body">

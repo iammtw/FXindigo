@@ -547,7 +547,7 @@ class CustomerController extends Controller
 
     public function payment($type)
     {
-        if ($type == "email") {
+        if ($type == "skrill") {
             return view('customer.payment.email');
         }
         if ($type == "bank") {

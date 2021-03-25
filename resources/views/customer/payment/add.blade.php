@@ -49,7 +49,7 @@
                         </div>
                         
                         <div class="col-md-2">
-                            <a href="{{ url('customer/payment/email') }}"  class="btn btn-success btn-block">Setup</a>
+                            <a href="{{ url('customer/payment/skrill') }}"  class="btn btn-success btn-block">Setup</a>
                         </div>
 
                     </div>
