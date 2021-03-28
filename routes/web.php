@@ -147,3 +147,9 @@ Route::post('customer/payment/bank', 'CustomerController@bankPayment')->middlewa
 Route::post('customer/payment/pm', 'CustomerController@pm')->middleware('auth', 'customer');
 Route::get('customer/payments', 'CustomerController@allPayments')->middleware('auth', 'customer');
 Route::get('customer/payments/delete/{id}', 'CustomerController@deletePayment')->middleware('auth', 'customer');
+
+Route::get('terms', function () {
+    $file_name = "FXINDIGO Terms AND Conditions.pdf";
+    $file_path = public_path('files/' . $file_name);
+    return response()->download($file_path);
+});

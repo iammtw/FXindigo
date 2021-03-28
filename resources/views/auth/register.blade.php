@@ -175,6 +175,21 @@
                                         </div>
                                     </div>
 
+                                    <div class="col-md-12 col-sm-6">
+                                        <div class="form-group">
+                                            <div class="row">
+                                                <div class="col-md-2">
+                                                    <input type="checkbox" style="width: 70% !important"  class="form-control"  required>
+                                                </div>
+                                                <div class="col-md-10" style="margin-left: -25px;">
+                                                    <span>I agree to accept the 
+                                                        <a style="color:#142748" href="{{ url('terms') }}" class="link">Terms and Conditions</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                     <div class="col-12 mt-3">
                                       <button type="submit" class="btn btn-primary text-uppercase" style="background: #142748">
                                         Sign up
