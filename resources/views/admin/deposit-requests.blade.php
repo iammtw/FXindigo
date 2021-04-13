@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @extends('admin.layouts.main')
 @section('content')
          
@@ -82,7 +82,7 @@
               </div>
             </div>
           </div>
-=======
+
 @extends('admin.layouts.main')
 @section('content')
          
@@ -166,5 +166,5 @@
               </div>
             </div>
           </div>
->>>>>>> b2412547901e36999b857369abaf9b65565a5f0e
+
 @endsection

@@ -21,6 +21,7 @@
                       <th>Amount</th>
                       <th>Username</th>
                       <th>Client ID</th>
+                      <th>Referred by</th>
                       <th>Payment Method </th>
                       <th>Date</th>
                       <th>Time</th>
@@ -38,6 +39,7 @@
                     <td>${{ $deposit->amount }}</td>
                     <td>{{ App\User::find($deposit->user_id)->username }}</td>
                     <td>{{ App\User::find($deposit->user_id)->client_id }}</td>
+                    <td>{{ App\User::find($deposit->user_id)->referred }}</td>
                     <td>{{ $deposit->payment_method }}</td>
                     <td>{{ $deposit->created_at->format('d M Y') }}</td>
                     <td>{{ $deposit->created_at->format('h:i A') }}</td>
