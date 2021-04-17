@@ -16,6 +16,8 @@ use App\History;
 use App\Partner;
 use App\Payment;
 use App\User;
+Use App\Withdraw_history;
+Use App\Deposit_history;
 use App\Withdraw;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -27,7 +29,7 @@ class CustomerController extends Controller
 
     public function deposit()
     {
-        $deposits = Deposit::where('user_id', Auth::id())->get();
+        $deposits = Deposit::where('user_id', Auth::id())->where('status','!=','Deleted')->get();
         return view('customer.all-deposits', compact('deposits'));
     }
 
@@ -60,6 +62,11 @@ class CustomerController extends Controller
 
         $deposit->save();
         $history->save();
+
+        $deposit_history = new Deposit_history;
+        $deposit_history->t_id = $deposit->id;
+        $deposit_history->transaction_id = substr(sha1(time()), 0, 6);
+        $deposit_history->save();
         return redirect('customer/deposit')->with('msg', 'Deposit Request is generated, Once its approved by admin, The Amount will be deposited.');
 
     }
@@ -68,7 +75,8 @@ class CustomerController extends Controller
     {
         $deposit = Deposit::find($id);
         if ($deposit) {
-            $deposit->delete();
+            $deposit->status = "Deleted";
+            $deposit->save();
             return redirect()->back()->with('msg', 'Successfully Deleted!');
         } else {
             return redirect()->back()->with('msg', "Deposit not found!!!..");
@@ -77,7 +85,7 @@ class CustomerController extends Controller
 
     public function withdraw()
     {
-        $withdraws = Withdraw::where('user_id', Auth::id())->get();
+        $withdraws = Withdraw::where('user_id', Auth::id())->where('status','!=','Deleted')->get();
         return view('customer.all-withdraws', compact('withdraws'));
     }
 
@@ -116,6 +124,12 @@ class CustomerController extends Controller
             $balance->save();
             $withdraw->save();
             $history->save();
+
+            $withdraw_history = new Withdraw_history;
+            $withdraw_history->t_id = $withdraw->id;
+            $withdraw_history->transaction_id = substr(sha1(time()), 0, 6);
+            $withdraw_history->save();
+
             return redirect('customer/withdraw')->with('msg', 'Withdrawal request genrated it will take max 24 hours.');
         } else {
             return redirect('customer/withdraw')->with('msg', 'The balance is insufficent to withdraw!');
@@ -132,7 +146,8 @@ class CustomerController extends Controller
                 $balance->amount = $balance->amount + $withdraw->amount;
             }
             $balance->save();
-            $withdraw->delete();
+            $withdraw->status = "Deleted";
+            $withdraw->save();
             return redirect()->back()->with('msg', 'Successfully Deleted!');
         } else {
             return redirect()->back()->with('msg', "Withdraw not found!!!..");

@@ -18,7 +18,9 @@ use App\Mail\GeneralMail;
 use App\Partner;
 use App\Payment;
 use App\User;
-use App\Withdraw;
+use App\Withdraw; 
+use App\Withdraw_history; 
+use App\Deposit_history; 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
@@ -195,11 +197,29 @@ class AdminController extends Controller
         return redirect()->back();
     }
 
+    public function WithdrawHistory()
+    {
+        $history = Withdraw_history::all();
+        $method = "Withdraw";
+        return view('admin.withdraw_history', compact('history','method'));
+    }
+
+    public function depositHistory()
+    {
+        $history = Deposit_history::all();
+        $method = "Deposit";
+        return view('admin.deposit_history', compact('history','method'));
+    }
+
     public function history()
     {
         $history = History::all();
         return view('admin.history', compact('history'));
     }
+
+
+
+
 
     public function kyc()
     {

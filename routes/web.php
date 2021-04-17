@@ -22,7 +22,12 @@ Route::get('admin/deposit/approve/{id}', 'AdminController@depositApprove')->midd
 Route::get('admin/deposit/decline/{id}', 'AdminController@depositDecline')->middleware('auth', 'admin');
 
 Route::post('admin/add-balance/{id}', 'AdminController@addBalancedb')->middleware('auth', 'admin');
+
 Route::get('admin/history', 'AdminController@history')->middleware('auth', 'admin');
+Route::get('admin/withdraw-history', 'AdminController@WithdrawHistory')->middleware('auth', 'admin');
+Route::get('admin/deposit-history', 'AdminController@depositHistory')->middleware('auth', 'admin');
+
+
 Route::post('admin/mail/{email}/{username}', 'AdminController@emailSend')->middleware('auth', 'employee');
 
 Route::get('admin/kyc', 'AdminController@kyc')->middleware('auth', 'admin');
