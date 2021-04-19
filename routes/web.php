@@ -88,7 +88,8 @@ Route::get('admin/trading-accounts/{option}/', 'AdminController@viewAccountCateg
 Route::get('admin/demo-accounts', 'AdminController@demoAccounts')->middleware('auth', 'employee');
 Route::get('admin/demo-account/{id}/{option}', 'AdminController@demoAccountDb')->middleware('auth', 'admin');
 
-Route::get('admin/users/export', 'AdminController@exportUsers')->middleware('auth', 'admin');
+Route::get('admin/users/export/{type}', 'AdminController@exportUsers')->middleware('auth', 'admin');
+Route::get('admin/users/pending/export', 'AdminController@pendingExport')->middleware('auth', 'admin');
 
 // customerRoutes
 

@@ -6,7 +6,7 @@
                 <span class=" mt-2 alert alert-danger"> {{ session('msg') }} </span>
             @endif
               <div class="card-header py-3">
-                <a href="{{ url('admin/users/export') }}" class="btn btn-primary" style="float:right"> Export to Excel </a>
+                <a href="{{ url('admin/users/export/'.$type) }}" class="btn btn-primary" style="float:right"> Export to Excel </a>
 
               <h6 class="m-0 font-weight-bold text-primary">Users</h6>
             </div>

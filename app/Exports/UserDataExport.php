@@ -14,20 +14,16 @@ class UserDataExport implements FromCollection, WithHeadings, ShouldAutoSize, Wi
     /**
      * @return \Illuminate\Support\Collection
      */
+
+    protected $users;
+    public function __construct($users){
+      $this->users = $users;
+    }
+
+
     public function collection()
     {
-        return User::all([
-            'id',
-            'name',
-            'username',
-            'client_id',
-            'email',
-            'role',
-            'gender',
-            'phonenumber',
-            'Nationality',
-            'Address',
-        ]);
+        return $this->users->get();
     }
 
     public function headings(): array

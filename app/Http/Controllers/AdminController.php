@@ -259,7 +259,8 @@ class AdminController extends Controller
     public function users()
     {
         $users = User::where('status', null)->get();
-        return view('admin.users', compact('users'));
+        $type = "all";
+        return view('admin.users', compact('users','type'));
     }
 
     public function userDetails($id)
@@ -628,23 +629,27 @@ class AdminController extends Controller
     public function approvedDocUsers()
     {
         $users = User::where('doc_status', 'Verified')->where('email_verified_at', '!=', null)->where('role', 'customer')->get();
-        return view('admin.users', compact('users'));
+        $type = "au";
+        return view('admin.users', compact('users','type'));
     }
     public function nonApprovedDocUsers()
     {
         $users = User::where('doc_status', null)->where('email_verified_at', '!=', null)->where('role', 'customer')->get();
-        return view('admin.users', compact('users'));
+        $type = "nau";
+        return view('admin.users', compact('users','type'));
     }
     public function pendingDocUser()
     {
         $users = User::where('doc_status', 'Pending')->where('email_verified_at', '!=', null)->where('role', 'customer')->get();
-        return view('admin.users', compact('users'));
+        $type = "pu";
+        return view('admin.users', compact('users','type'));
     }
 
     public function adminUsers()
     {
         $users = User::where('role', 'admin')->get();
-        return view('admin.users', compact('users'));
+        $type = "adu";        
+        return view('admin.users', compact('users','type'));
     }
 
     public function docStatus($id, $option)
@@ -659,15 +664,42 @@ class AdminController extends Controller
         return redirect()->back();
     }
 
-    public function exportUsers()
-    {
-        return Excel::download(new UserDataExport(), 'userdata.xlsx');
-    }
-
     public function paymentOptions($id)
     {
         $payments = Payment::where('user_id', $id)->get();
         return view('admin.payments', compact('payments'));
+    }
+
+    public function exportUsers($type)
+    {
+
+        $users = [];
+        if($type == "all"){
+            $users = User::where('email','!=',null);
+        }
+
+        if($type == "au") {
+            $users = User::where('doc_status', 'Verified')->where('email_verified_at', '!=', null)->where('role', 'customer')->get();
+        }
+        
+        if($type == "nau") {
+            $users = User::where('doc_status', null)->where('email_verified_at', '!=', null)->where('role', 'customer')->get();
+        }
+
+        if($type == "pu") {
+            $users = User::where('doc_status', 'Pending')->where('email_verified_at', '!=', null)->where('role', 'customer')->get();
+        }
+
+        if($type == "adu") {
+            $users = User::where('role', 'admin')->get();
+        }
+
+        return Excel::download(new UserDataExport($users), 'userdata.xlsx');
+    }
+
+    public function pendingExport(){
+        $users = User::where('email_verified_at', null)->where('role', 'customer');
+        return Excel::download(new UserDataExport($users), 'pending-users.xlsx');
     }
 
 }

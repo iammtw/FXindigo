@@ -9,6 +9,7 @@
 
           <div class="card shadow mb-4">
               <div class="card-header py-3">
+                <a href="{{ url('admin/users/pending/export') }}" class="btn btn-primary" style="float:right"> Export to Excel </a>
               <h6 class="m-0 font-weight-bold text-primary">Pending</h6>
             </div>
 
