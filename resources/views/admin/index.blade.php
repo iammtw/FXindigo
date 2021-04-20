@@ -238,7 +238,7 @@
             <div
               class="text-center display-5 font-weight-bold text-warning text-uppercase mb-1"
             >
-            <a href="{{url('#')}}" class="text-warning">Partner Withdraw Requests</a>
+            <a href="{{url('admin/all-bonus-withdraws')}}" class="text-warning">Partner Withdraw Requests</a>
           
             </div>
             <div

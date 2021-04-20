@@ -44,6 +44,7 @@ Route::post('admin/add-bonus/{id}', 'AdminController@addBonus')->middleware('aut
 Route::get('admin/bonus-history/{id}', 'AdminController@viewBonusHistory')->middleware('auth', 'admin');
 Route::get('admin/bonus-withdraw/{id}', 'AdminController@bonusWithdraw')->middleware('auth', 'admin');
 Route::get('admin/bonus-withdraw/{id}/{option}', 'AdminController@bonusWithdrawOption')->middleware('auth', 'admin');
+Route::get('admin/all-bonus-withdraws', 'AdminController@allbonuswithdraw')->middleware('auth', 'admin');
 
 Route::get('admin/users', 'AdminController@users')->middleware('auth', 'employee');
 Route::get('admin/user/{id}', 'AdminController@userDetails')->middleware('auth', 'employee');

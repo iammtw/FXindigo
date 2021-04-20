@@ -512,15 +512,15 @@ class CustomerController extends Controller
 
         $withdrawPending = Bonus_withdraw::where('partner_id', $id)->where('status','Pending')->first();
         if($withdrawPending != null){
+            return redirect()->back()->with('msg', 'Sorry, Your previous request is already in Pending!');
+        } else {
             $withdraw = new Bonus_withdraw;
             $withdraw->user_id = Auth::id();
             $withdraw->partner_id = $id;
             $withdraw->amount = $req->amount;
             $withdraw->status = "Pending";
             $withdraw->save();
-        return redirect()->back()->with('msg', 'Successfully Request Generated!');
-        } else {
-            return redirect()->back()->with('msg', 'Sorry, Your previous request is already in Pending!');
+            return redirect()->back()->with('msg', 'Successfully Request Generated!');
         }
 
         
@@ -672,5 +672,7 @@ class CustomerController extends Controller
             return redirect()->back()->with('msg', 'Sorry, This payment method not exist!');
         }
     }
+
+    
 
 }

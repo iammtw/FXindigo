@@ -702,4 +702,9 @@ class AdminController extends Controller
         return Excel::download(new UserDataExport($users), 'pending-users.xlsx');
     }
 
+    public function allbonuswithdraw(){
+        $withdraws = Bonus_withdraw::where('status','Pending')->get();
+        return view('admin.all_bonus_withdraws', compact('withdraws'));
+    }
+
 }
