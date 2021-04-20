@@ -32,11 +32,11 @@
                     <td>{{ $withdraw->created_at->format('d M Y') }}</td>
                     <td>{{ $withdraw->created_at->format('h:i A') }}</td>
                     <td>
-                       @if ($withdraw->status == "Approved")
-                           {{ $withdraw->status  }}
+                       @if ($withdraw->status == "Pending")
+                          <a href="{{ url('admin/bonus-withdraw/'.$withdraw->id."/approve") }}" class="btn btn-success">Approve</a>
+                          <a href="{{ url('admin/bonus-withdraw/'.$withdraw->id."/decline") }}" class="btn btn-danger">Decline</a>
                        @else
-                       <a href="{{ url('admin/bonus-withdraw/'.$withdraw->id."/approve") }}" class="btn btn-success">Approve</a>
-                       <a href="{{ url('admin/bonus-withdraw/'.$withdraw->id."/decline") }}" class="btn btn-danger">Decline</a>
+                        {{ $withdraw->status  }}
                        @endif
                     </td>
                     

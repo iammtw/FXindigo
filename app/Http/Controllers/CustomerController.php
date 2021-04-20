@@ -510,14 +510,22 @@ class CustomerController extends Controller
             return redirect()->back()->with('msg', 'Sorry, You have insufficent bonus to withdraw!');
         }
 
-        $withdraw = new Bonus_withdraw;
-        $withdraw->user_id = Auth::id();
-        $withdraw->partner_id = $id;
-        $withdraw->amount = $req->amount;
-        $withdraw->status = "Pending";
-
-        $withdraw->save();
+        $withdrawPending = Bonus_withdraw::where('partner_id', $id)->where('status','Pending')->first();
+        if($withdrawPending != null){
+            $withdraw = new Bonus_withdraw;
+            $withdraw->user_id = Auth::id();
+            $withdraw->partner_id = $id;
+            $withdraw->amount = $req->amount;
+            $withdraw->status = "Pending";
+            $withdraw->save();
         return redirect()->back()->with('msg', 'Successfully Request Generated!');
+        } else {
+            return redirect()->back()->with('msg', 'Sorry, Your previous request is already in Pending!');
+        }
+
+        
+
+        
     }
 
     public function demoAccount()
