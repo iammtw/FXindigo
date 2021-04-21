@@ -274,19 +274,15 @@ class CustomerController extends Controller
         $amount = $req->amount;
 
         if ($options == "deposit") {
-            // if ($type == "standard") {
-            //     if ($amount < 10) {
-            //         return redirect('customer/account/' . $id . '/options')->with('msg', 'The Minimum amount for Standard is 10');
-            //     }
-            // } else if ($type == "lowspread") {
-            //     if ($amount < 300) {
-            //         return redirect('customer/account/' . $id . '/options')->with('msg', 'The Minimum amount for Low spread is 300');
-            //     }
-            // } else if ($type == "ecnpro") {
-            //     if ($amount < 2000) {
-            //         return redirect('customer/account/' . $id . '/options')->with('msg', 'The Minimum amount for ECN Pro is 2000');
-            //     }
-            // }
+            if ($type == "standard") {
+                if ($amount < 10) {
+                    return redirect('customer/account/' . $id . '/options')->with('msg', 'The Minimum amount for Standard is 10');
+                }
+            } else if ($type == "ecnpro") {
+                if ($amount < 2000) {
+                    return redirect('customer/account/' . $id . '/options')->with('msg', 'The Minimum amount for ECN Pro is 2000');
+                }
+            }
 
             // check in wallet
             $balance = balance::where('user_id', Auth::id())->first();

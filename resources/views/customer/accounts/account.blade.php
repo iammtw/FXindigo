@@ -27,7 +27,7 @@
                     <label for=""> Account type </label>
                     <select name="type" class="form-control" id="">
                         <option value="standard">Standard</option>
-                        <option value="lowspread">Low spread</option>
+                        
                         <option value="ecnpro">ECN Pro</option>
                     </select>
                 </div>
