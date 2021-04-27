@@ -120,8 +120,8 @@ class CustomerController extends Controller
             $history->transaction_id = substr(sha1(time()), 0, 6);
 
             $balance->amount = $balance->amount - $req->amount;
-
             $balance->save();
+           
             $withdraw->save();
             $history->save();
 
