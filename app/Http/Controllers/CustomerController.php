@@ -23,6 +23,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\GeneralMail;
 
 class CustomerController extends Controller
 {
@@ -67,6 +69,16 @@ class CustomerController extends Controller
         $deposit_history->t_id = $deposit->id;
         $deposit_history->transaction_id = substr(sha1(time()), 0, 6);
         $deposit_history->save();
+
+        $user = User::find($deposit->user_id);
+        
+        $email = $user->email;
+        $content = "Thankyou for choosing us. Your deposit request has been generated. Our agent will contact you as soon as possible to complete your deposit process.";
+        $username = $user->username;
+        $action = "Deposit Request!";
+        $subject = "Successfully Deposit Request Generated - FXIndigo";
+        
+        Mail::to($email)->send(new GeneralMail($content, $username, $action, $subject));
         return redirect('customer/deposit')->with('msg', 'Deposit Request is generated, Once its approved by admin, The Amount will be deposited.');
 
     }

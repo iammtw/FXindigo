@@ -66,7 +66,7 @@
                           class="btn btn-success">Approve</a>
                         <a href="{{ url('admin/account-deposit/'.$deposit->id.'/'.$deposit->account_id.'/decline/'.$deposit->amount) }}" 
                           class="btn btn-danger">Decline</a>
-                         
+                         @else
                         {{$deposit->status}}
                         @endif
   
