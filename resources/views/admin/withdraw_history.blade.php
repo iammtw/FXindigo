@@ -30,20 +30,26 @@
                    @foreach ($history as $h)
                    <?php $i++; ?>
                    <tr>
-                    <td>{{ $i }}</td>
-                    <td>{{ $method }}</td>
-                    <td>${{ App\Withdraw::where('id',$h->t_id)->first()->amount }}</td>
-                    <td>{{ App\User::where('id', App\Withdraw::where('id',$h->t_id)->first()->user_id)->first()->username }}</td>
-                    <td>  {{ App\Withdraw::where('id',$h->t_id)->first()->status }}</td>
-                    <td>{{ $h->transaction_id }}</td>
-                    <?php $user = App\User::where('username',App\User::where('id', App\Withdraw::where('id',$h->t_id)->first()->user_id)->first()->username)->first() ?>
-                    @if ($user)
-                    <td>{{  App\User::where('id', App\Withdraw::where('id',$h->t_id)->first()->user_id)->first()->client_id }}</td>
-                    @else
-                    <td> Deleted Client </td>
-                    @endif
-                    <td>{{ $h->created_at->format('h:i A') }}</td>
-                    <td>{{ $h->created_at->format('d M Y') }}</td>
+                     <?php $wh = App\Withdraw::where('id',$h->t_id)->first(); ?>
+                     <td>{{ $i }}</td>
+                     @if ($wh)
+                       
+                        <td>{{ $method }}</td>
+                        <td>${{ App\Withdraw::where('id',$h->t_id)->first()->amount }}</td>
+                        <td>{{ App\User::where('id', App\Withdraw::where('id',$h->t_id)->first()->user_id)->first()->username }}</td>
+                        <td>  {{ App\Withdraw::where('id',$h->t_id)->first()->status }}</td>
+                        <td>{{ $h->transaction_id }}</td>
+                        <?php $user = App\User::where('username',App\User::where('id', App\Withdraw::where('id',$h->t_id)->first()->user_id)->first()->username)->first() ?>
+                        @if ($user)
+                        <td>{{  App\User::where('id', App\Withdraw::where('id',$h->t_id)->first()->user_id)->first()->client_id }}</td>
+                        @else
+                        <td> Deleted Client </td>
+                        @endif
+                        <td>{{ $h->created_at->format('h:i A') }}</td>
+                        <td>{{ $h->created_at->format('d M Y') }}</td>
+                     @else
+                     <td colspan="8"> Deleted Withdraw Request </td>
+                     @endif
                   </tr>
                    @endforeach
 
