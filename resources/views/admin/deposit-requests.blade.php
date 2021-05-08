@@ -23,7 +23,7 @@
                       <th>Transfer to (ID)</th>
                       <th>Date</th>
                       <th>Time</th>
-                      @if (App\User::find(Auth::id())->role == "admin")
+                      @if (App\User::find(Auth::id())->role == "admin" || App\User::find(Auth::id())->role == "semiadmin")
                       <th>Action</th>
                       @endif
                     </tr>
@@ -57,10 +57,10 @@
                     <td>{{ App\User::find(App\Account::find($deposit->account_id)->user_id)->client_id }}</td>
                     <td>{{ $deposit->created_at->format('d M Y') }}</td>
                     <td>{{ $deposit->created_at->format('h:i A') }}</td>
-                    @if (App\User::find(Auth::id())->role == "admin")
+                    @if (App\User::find(Auth::id())->role == "admin" || App\User::find(Auth::id())->role == "semiadmin")
                     <td>
 
-                        @if ($deposit->status == "Pending")
+                        @if ($deposit->status == "Pending" && App\User::find(Auth::id())->role == "admin")
                         
                         <a href="{{ url('admin/account-deposit/'.$deposit->id.'/'.$deposit->account_id.'/approve/'.$deposit->amount) }}" 
                           class="btn btn-success">Approve</a>

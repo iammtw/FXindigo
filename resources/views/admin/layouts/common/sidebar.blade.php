@@ -185,7 +185,7 @@ href="{{ url('admin/dashboard') }}"
   </div>
 </li>
 
-@if (App\User::find(Auth::id())->role == "admin")
+@if (App\User::find(Auth::id())->role == "admin" || App\User::find(Auth::id())->role == "semiadmin" )
 
 <li class="nav-item">
   <a class="nav-link" href="{{ url('admin/history') }}">

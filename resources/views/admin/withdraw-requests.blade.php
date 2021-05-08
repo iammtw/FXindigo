@@ -57,7 +57,7 @@
                   <td>{{ $withdraw->created_at->format('h:i A') }}</td>
                   <td>
 
-                      @if ($withdraw->status == "Pending")
+                      @if ($withdraw->status == "Pending" &&  && App\User::find(Auth::id())->role == "admin")
                       <a href="{{ url('admin/account-withdraw/'.$withdraw->id.'/'.$withdraw->account_id.'/approve/'.$withdraw->amount) }}" 
                         class="btn btn-success">Approve</a>
                       <a href="{{ url('admin/account-withdraw/'.$withdraw->id.'/'.$withdraw->account_id.'/decline/'.$withdraw->amount) }}" 
