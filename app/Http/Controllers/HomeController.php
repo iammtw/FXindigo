@@ -36,7 +36,7 @@ class HomeController extends Controller
         
         
         $user = User::where(['email' => $email])->first();
-        if ($user->role == 'admin' || $user->role == 'employee' ) {
+        if ($user->role == 'admin' || $user->role == 'employee' || $user->role == 'semiadmin' ) {
             return redirect('admin/dashboard');
         } elseif ($user->role == 'tester') {
             return redirect('tester/dashboard');

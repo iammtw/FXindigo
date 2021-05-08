@@ -417,6 +417,17 @@ class AdminController extends Controller
         }
     }
 
+    public function markasemiadmin($id){
+        $user = User::find($id);
+        if ($user != null) {
+            $user->role = "semiadmin";
+            $user->save();
+            return redirect('admin/users')->with('msg', "Successfull marked!");
+        } else {
+            return redirect()->back();
+        }
+    }
+
     public function markasemployee($id)
     {
         $user = User::find($id);

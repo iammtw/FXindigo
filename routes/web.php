@@ -3,32 +3,29 @@
 Route::view('/', 'auth.login');
 Auth::routes(['verify' => true]);
 Route::get('/home', 'HomeController@index')->name('home')->middleware('auth');
-Route::get('/admin/dashboard', 'AdminController@index')->middleware('auth', 'employee');
+Route::get('/admin/dashboard', 'AdminController@index')->middleware('auth', 'employee','semiAdmin');
 
 // AdminRoutes
 
-Route::get('/admin/profile', 'AdminController@profile')->middleware('auth', 'employee');
-Route::post('/admin/profile', 'AdminController@profileUpdate')->middleware('auth', 'employee');
-Route::get('/admin/change-password', 'AdminController@changePassword')->middleware('auth', 'employee');
-Route::post('/admin/change-password', 'AdminController@changePasswordUpdate')->middleware('auth', 'employee');
+Route::get('/admin/profile', 'AdminController@profile')->middleware('auth', 'employee','semiAdmin');
+Route::post('/admin/profile', 'AdminController@profileUpdate')->middleware('auth', 'employee','semiAdmin');
+Route::get('/admin/change-password', 'AdminController@changePassword')->middleware('auth', 'employee','semiAdmin');
+Route::post('/admin/change-password', 'AdminController@changePasswordUpdate')->middleware('auth', 'employee','semiAdmin');
 
-Route::get('admin/withdrawals', 'AdminController@winthdrawalrequests')->middleware('auth', 'employee');
-Route::get('admin/payment-options/{id}', 'AdminController@paymentOptions')->middleware('auth', 'employee');
-Route::get('admin/withdraw/approve/{id}', 'AdminController@withdrawApprove')->middleware('auth', 'admin');
-Route::get('admin/withdraw/decline/{id}', 'AdminController@withdrawDecline')->middleware('auth', 'admin');
+Route::get('admin/withdrawals', 'AdminController@winthdrawalrequests')->middleware('auth', 'employee','semiAdmin');
+Route::get('admin/payment-options/{id}', 'AdminController@paymentOptions')->middleware('auth', 'employee','semiAdmin');
+Route::get('admin/withdraw/approve/{id}', 'AdminController@withdrawApprove')->middleware('auth', 'admin','semiAdmin');
+Route::get('admin/withdraw/decline/{id}', 'AdminController@withdrawDecline')->middleware('auth', 'admin','semiAdmin');
 
-Route::get('admin/deposits', 'AdminController@depositsRequests')->middleware('auth', 'employee');
+Route::get('admin/deposits', 'AdminController@depositsRequests')->middleware('auth', 'employee','semiAdmin');
 Route::get('admin/deposit/approve/{id}', 'AdminController@depositApprove')->middleware('auth', 'admin');
 Route::get('admin/deposit/decline/{id}', 'AdminController@depositDecline')->middleware('auth', 'admin');
 
-Route::post('admin/add-balance/{id}', 'AdminController@addBalancedb')->middleware('auth', 'admin');
-
-Route::get('admin/history', 'AdminController@history')->middleware('auth', 'admin');
-Route::get('admin/withdraw-history', 'AdminController@WithdrawHistory')->middleware('auth', 'admin');
-Route::get('admin/deposit-history', 'AdminController@depositHistory')->middleware('auth', 'admin');
-
-
-Route::post('admin/mail/{email}/{username}', 'AdminController@emailSend')->middleware('auth', 'employee');
+Route::post('admin/add-balance/{id}', 'AdminController@addBalancedb')->middleware('auth', 'admin','semiAdmin');
+Route::get('admin/history', 'AdminController@history')->middleware('auth', 'admin','semiAdmin');
+Route::get('admin/withdraw-history', 'AdminController@WithdrawHistory')->middleware('auth', 'admin','semiAdmin');
+Route::get('admin/deposit-history', 'AdminController@depositHistory')->middleware('auth', 'admin','semiAdmin');
+Route::post('admin/mail/{email}/{username}', 'AdminController@emailSend')->middleware('auth', 'employee','semiAdmin');
 
 Route::get('admin/kyc', 'AdminController@kyc')->middleware('auth', 'admin');
 Route::post('admin/kyc', 'AdminController@uploadkyc')->middleware('auth', 'admin');
@@ -46,51 +43,52 @@ Route::get('admin/bonus-withdraw/{id}', 'AdminController@bonusWithdraw')->middle
 Route::get('admin/bonus-withdraw/{id}/{option}', 'AdminController@bonusWithdrawOption')->middleware('auth', 'admin');
 Route::get('admin/all-bonus-withdraws', 'AdminController@allbonuswithdraw')->middleware('auth', 'admin');
 
-Route::get('admin/users', 'AdminController@users')->middleware('auth', 'employee');
-Route::get('admin/user/{id}', 'AdminController@userDetails')->middleware('auth', 'employee');
-Route::get('admin/user/{id}/documents', 'AdminController@userDocuments')->middleware('auth', 'employee');
-Route::get('admin/user/{id}/documents/{docid}/{option}', 'AdminController@userDocumentOption')->middleware('auth', 'employee');
+Route::get('admin/users', 'AdminController@users')->middleware('auth', 'employee','semiAdmin');
+Route::get('admin/user/{id}', 'AdminController@userDetails')->middleware('auth', 'employee','semiAdmin');
+Route::get('admin/user/{id}/documents', 'AdminController@userDocuments')->middleware('auth', 'employee','semiAdmin');
+Route::get('admin/user/{id}/documents/{docid}/{option}', 'AdminController@userDocumentOption')->middleware('auth', 'employee','semiAdmin');
 
-Route::get('admin/users/{id}/accounts/', 'AdminController@userAccounts')->middleware('auth', 'employee');
-Route::get('admin/users/account/{id}', 'AdminController@accountDeposit')->middleware('auth', 'employee');
+Route::get('admin/users/{id}/accounts/', 'AdminController@userAccounts')->middleware('auth', 'employee','semiAdmin');
+Route::get('admin/users/account/{id}', 'AdminController@accountDeposit')->middleware('auth', 'employee','semiAdmin');
 
-Route::get('admin/user/{id}/upload-documents', 'AdminController@wantToUploadDocuments')->middleware('auth', 'admin');
-Route::post('admin/user/{id}/upload-documents', 'AdminController@uploadDocuments')->middleware('auth', 'admin');
-Route::get('admin/user/delete/{id}', 'AdminController@deleteUser')->middleware('auth', 'admin');
-Route::get('admin/user/reactive/{id}', 'AdminController@reActivate')->middleware('auth', 'admin');
+Route::get('admin/user/{id}/upload-documents', 'AdminController@wantToUploadDocuments')->middleware('auth', 'admin','semiAdmin');
+Route::post('admin/user/{id}/upload-documents', 'AdminController@uploadDocuments')->middleware('auth', 'admin','semiAdmin');
+Route::get('admin/user/delete/{id}', 'AdminController@deleteUser')->middleware('auth', 'admin','semiAdmin');
+Route::get('admin/user/reactive/{id}', 'AdminController@reActivate')->middleware('auth', 'admin','semiAdmin');
 
-Route::get('admin/user-admin/{id}', 'AdminController@markasadmin')->middleware('auth', 'admin');
-Route::get('admin/user-employee/{id}', 'AdminController@markasemployee')->middleware('auth', 'admin');
-Route::get('admin/user-user/{id}', 'AdminController@markasuser')->middleware('auth', 'admin');
-Route::get('admin/pending-users', 'AdminController@pendingUser')->middleware('auth', 'employee');
-Route::get('admin/pending-user/{id}', 'AdminController@pendingUserActive')->middleware('auth', 'employee');
+Route::get('admin/user-admin/{id}', 'AdminController@markasadmin')->middleware('auth', 'admin','semiAdmin');
+Route::get('admin/user-employee/{id}', 'AdminController@markasemployee')->middleware('auth', 'admin','semiAdmin');
+Route::get('admin/user-user/{id}', 'AdminController@markasuser')->middleware('auth', 'admin','semiAdmin');
+Route::get('admin/user-semiadmin/{id}', 'AdminController@markasemiadmin')->middleware('auth', 'admin','semiAdmin');
+Route::get('admin/pending-users', 'AdminController@pendingUser')->middleware('auth', 'employee','semiAdmin');
+Route::get('admin/pending-user/{id}', 'AdminController@pendingUserActive')->middleware('auth', 'employee','semiAdmin');
 
-Route::get('admin/approved-users', 'AdminController@approvedDocUsers')->middleware('auth', 'employee');
-Route::get('admin/non-approved-users', 'AdminController@nonApprovedDocUsers')->middleware('auth', 'employee');
-Route::get('admin/pending-approved-users', 'AdminController@pendingDocUser')->middleware('auth', 'employee');
-Route::get('admin/admin-users', 'AdminController@adminUsers')->middleware('auth', 'employee');
-Route::get('admin/user-doc-status/{id}/{option}', 'AdminController@docStatus')->middleware('auth', 'employee');
+Route::get('admin/approved-users', 'AdminController@approvedDocUsers')->middleware('auth', 'employee','semiAdmin');
+Route::get('admin/non-approved-users', 'AdminController@nonApprovedDocUsers')->middleware('auth', 'employee','semiAdmin');
+Route::get('admin/pending-approved-users', 'AdminController@pendingDocUser')->middleware('auth', 'employee','semiAdmin');
+Route::get('admin/admin-users', 'AdminController@adminUsers')->middleware('auth', 'employee','semiAdmin');
+Route::get('admin/user-doc-status/{id}/{option}', 'AdminController@docStatus')->middleware('auth', 'employee','semiAdmin');
 
-Route::get('admin/account-deposit/{depositId}/{id}/{option}/{amount}', 'AdminController@accountDepositOption')->middleware('auth', 'admin');
-Route::get('admin/account-withdraw/{depositId}/{id}/{option}/{amount}', 'AdminController@accountwithdrawOption')->middleware('auth', 'admin');
-Route::get('admin/account-requests', 'AdminController@accountRequests')->middleware('auth', 'employee');
-Route::get('admin/deposit-requests', 'AdminController@depositRequests')->middleware('auth', 'employee');
-Route::get('admin/withdraw-requests', 'AdminController@withdrawRequests')->middleware('auth', 'employee');
+Route::get('admin/account-deposit/{depositId}/{id}/{option}/{amount}', 'AdminController@accountDepositOption')->middleware('auth', 'admin','semiAdmin');
+Route::get('admin/account-withdraw/{depositId}/{id}/{option}/{amount}', 'AdminController@accountwithdrawOption')->middleware('auth', 'admin','semiAdmin');
+Route::get('admin/account-requests', 'AdminController@accountRequests')->middleware('auth', 'employee','semiAdmin');
+Route::get('admin/deposit-requests', 'AdminController@depositRequests')->middleware('auth', 'employee','semiAdmin');
+Route::get('admin/withdraw-requests', 'AdminController@withdrawRequests')->middleware('auth', 'employee','semiAdmin');
 
-Route::get('admin/trading-accounts', 'AdminController@tradingAccounts')->middleware('auth', 'employee');
-Route::post('admin/trading-account/{id}/', 'AdminController@accountID')->middleware('auth', 'admin');
+Route::get('admin/trading-accounts', 'AdminController@tradingAccounts')->middleware('auth', 'employee','semiAdmin');
+Route::post('admin/trading-account/{id}/', 'AdminController@accountID')->middleware('auth', 'admin','semiAdmin');
 
-Route::get('admin/trading-account/edit/{id}', 'AdminController@editTradingAccount')->middleware('auth', 'admin');
-Route::post('admin/trading-account/edit/{id}', 'AdminController@updateTradingAccount')->middleware('auth', 'admin');
-Route::get('admin/trading-account/delete/{id}', 'AdminController@deleteTradingAccount')->middleware('auth', 'admin');
+Route::get('admin/trading-account/edit/{id}', 'AdminController@editTradingAccount')->middleware('auth', 'admin','semiAdmin');
+Route::post('admin/trading-account/edit/{id}', 'AdminController@updateTradingAccount')->middleware('auth', 'admin','semiAdmin');
+Route::get('admin/trading-account/delete/{id}', 'AdminController@deleteTradingAccount')->middleware('auth', 'admin','semiAdmin');
 
-Route::get('admin/trading-accounts/{option}/', 'AdminController@viewAccountCategorically')->middleware('auth', 'employee');
+Route::get('admin/trading-accounts/{option}/', 'AdminController@viewAccountCategorically')->middleware('auth', 'employee','semiAdmin');
 
-Route::get('admin/demo-accounts', 'AdminController@demoAccounts')->middleware('auth', 'employee');
-Route::get('admin/demo-account/{id}/{option}', 'AdminController@demoAccountDb')->middleware('auth', 'admin');
+Route::get('admin/demo-accounts', 'AdminController@demoAccounts')->middleware('auth', 'employee','semiAdmin');
+Route::get('admin/demo-account/{id}/{option}', 'AdminController@demoAccountDb')->middleware('auth', 'admin','semiAdmin');
 
-Route::get('admin/users/export/{type}', 'AdminController@exportUsers')->middleware('auth', 'admin');
-Route::get('admin/users/pending/export', 'AdminController@pendingExport')->middleware('auth', 'admin');
+Route::get('admin/users/export/{type}', 'AdminController@exportUsers')->middleware('auth', 'admin','semiAdmin');
+Route::get('admin/users/pending/export', 'AdminController@pendingExport')->middleware('auth', 'admin','semiAdmin');
 
 // customerRoutes
 

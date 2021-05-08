@@ -69,6 +69,12 @@
                     @else
                        <button class="btn btn-primary btn-block"> User </button>
                     @endif
+
+                    @if (App\User::find($user->id)->role != "semiadmin")
+                    <a href="{{ url('admin/user-semiadmin/'.$user->id) }}" class="btn btn-primary btn-block">   Marks as SemiAdmin </a>
+                    @else
+                       <button class="btn btn-primary btn-block"> SemiAdmin </button>
+                    @endif
                     
                      @if (App\User::find($user->id)->status == "Deleted")
                             <a href="{{ url('admin/user/reactive/'.$user->id) }}" 

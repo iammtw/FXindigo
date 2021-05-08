@@ -4,7 +4,7 @@ namespace App\Http\Middleware;
 
 use Closure;
 
-class employeeUser
+class semiAdmin
 {
     /**
      * Handle an incoming request.
@@ -15,7 +15,7 @@ class employeeUser
      */
     public function handle($request, Closure $next)
     {
-        if ($request->user()->role == "employee" || $request->user()->role == "admin" || $request->user()->role == "semiadmin") {
+        if ($request->user()->role == "semiadmin") {
             return $next($request);
         } else {
             abort(403);
