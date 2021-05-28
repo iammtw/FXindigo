@@ -331,20 +331,37 @@ class AdminController extends Controller
         $balance = balance::where('user_id', $user_id)->first();
 
         $deposit = Account_deposit::find($depositId);
+        
+        $content = "";
+        $action = "";
+        $subject = "";
 
         if ($option == "approve") {
             $deposit->status = "Approved";
+            $content = "We're sorry to inform you that your deposit from AccountID ".$account->account_id." has been Approved ";
+            $action = "Deposit Approved!";
+            $subject = "Deposit Approved - FXIndigo";
+
         } else {
             if ($deposit->status == "Declined") {
                 return redirect()->back();
             }
-
             $balance->amount = $balance->amount + $amount;
             $deposit->status = "Declined";
+            $content = "We're sorry to inform you that your deposit from AccountID ".$account->account_id." has been Declined";
+            $action = "Deposit Declined!";
+            $subject = "Deposit Declined - FXIndigo";
         }
 
         $deposit->save();
         $balance->save();
+
+        $user = User::find($user_id);
+        $email = $user->email;
+        $username = $user->username;
+       
+        Mail::to($email)->send(new GeneralMail($content, $username, $action, $subject));
+
         return redirect()->back();
     }
 
@@ -355,6 +372,10 @@ class AdminController extends Controller
         $balance = balance::where('user_id', $user_id)->first();
 
         $deposit = Account_withdraw::find($depositId);
+        
+        $content = "";
+        $action = "";
+        $subject = "";
 
         if ($option == "approve") {
             if ($deposit->status == "Approved") {
@@ -363,12 +384,23 @@ class AdminController extends Controller
 
             $deposit->status = "Approved";
             $balance->amount = $balance->amount + $amount;
+            $content = "We're sorry to inform you that your withdraw request from AccountID ".$account->account_id." has been Approved ";
+            $action = "Deposit Approved!";
+            $subject = "Deposit Approved - FXIndigo";
         } else {
             $deposit->status = "Declined";
+            $content = "We're sorry to inform you that your withdraw request from AccountID ".$account->account_id." has been Declined ";
+            $action = "Deposit Declined!";
+            $subject = "Deposit Declined - FXIndigo";
         }
 
         $deposit->save();
         $balance->save();
+        $user = User::find($user_id);
+        $email = $user->email;
+        $username = $user->username;
+       
+        Mail::to($email)->send(new GeneralMail($content, $username, $action, $subject));
         return redirect()->back();
     }
 
@@ -653,6 +685,8 @@ class AdminController extends Controller
     {
         $users = User::where('doc_status', 'Pending')->where('email_verified_at', '!=', null)->where('role', 'customer')->get();
         $type = "pu";
+        // $documents = Document::where('user_id',35)->orderBy('id','DESC')->first()->updated_at;
+        // return $documents;
         return view('admin.users', compact('users','type'));
     }
 

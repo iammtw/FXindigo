@@ -20,6 +20,7 @@
                       <th>Username</th>
                       <th>Balance</th>
                       <th>Documents</th>
+                      <th>Documents Date (Updated)</th>
                       <th>Documents Status</th>
                       <th>Payment</th>
                       <th>Ref by</th>
@@ -53,6 +54,13 @@
                    <td>
                         <a href="{{ url('admin/user/'.$user->id.'/documents') }}">View </a>
                    </td>
+                   <td>
+                     @if (App\Document::where('user_id',$user->id)->count() != "0")
+                         {{ App\Document::where('user_id',$user->id)->orderBy('id','DESC')->first()->updated_at}}
+                     @else                         
+                     @endif
+                     
+                   </td>
                    
                   <td>
 
@@ -76,9 +84,9 @@
                    </td>
                    <td> {{ $user->referred }} </td>
                    <td> 
-                     {{ $user->created_at->format('H:m:i') }} 
-                        <br> 
-                      {{ $user->created_at->format('d-m-y') }} 
+                     {{ $user->created_at }} 
+                       
+                      
                   </td>
                    <td>
                     <a href="{{ url('admin/users/'.$user->id.'/accounts') }}">View </a>
