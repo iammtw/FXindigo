@@ -338,7 +338,7 @@ class AdminController extends Controller
 
         if ($option == "approve") {
             $deposit->status = "Approved";
-            $content = "We're sorry to inform you that your deposit from AccountID ".$account->account_id." has been Approved ";
+            $content = "We're glad to inform you that your deposit ".$amount." from AccountID ".$account->account_id." has been Approved ";
             $action = "Deposit Approved!";
             $subject = "Deposit Approved - FXIndigo";
 
@@ -384,7 +384,7 @@ class AdminController extends Controller
 
             $deposit->status = "Approved";
             $balance->amount = $balance->amount + $amount;
-            $content = "We're sorry to inform you that your withdraw request from AccountID ".$account->account_id." has been Approved ";
+            $content = "We're glad to inform you that your withdraw ".$amount." from AccountID ".$account->account_id." has been Approved ";
             $action = "Deposit Approved!";
             $subject = "Deposit Approved - FXIndigo";
         } else {

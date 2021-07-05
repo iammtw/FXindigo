@@ -590,6 +590,10 @@ class CustomerController extends Controller
         if ($type == "pm") {
             return view('customer.payment.pm');
         }
+
+        if ($type == "netteller") {
+            return view('customer.payment.netteller');
+        }
     }
 
     public function emailPayment(Request $req)

@@ -35,6 +35,7 @@
                            <option value="Mastercard">Mastercard</option>
                            <option value="Local Bank transfer">local bank transfer</option>
                             <option value="Paypal">Paypal</option>
+                             <option value="NetTeller ">NetTeller</option>
                        </select>
                     </div>
                    

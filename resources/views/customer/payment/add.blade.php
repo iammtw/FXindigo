@@ -107,6 +107,31 @@
             </div>
         </div>
         <br>
+
+        <div class="col-xl-12 col-md-12 mb-6">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                      
+                        <div class="col-md-4">
+                            <div  class="mb-0 text-center display-4">
+                               <i class="fa fa-university"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4 display-5">
+                            <span class="text-lg text-bolder">NetTeller</span>
+                        </div>
+                        
+                        <div class="col-md-2">
+                            <a href="{{ url('customer/payment/netteller') }}"  class="btn btn-success btn-block">Setup</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
     
       
     
