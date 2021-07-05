@@ -36,7 +36,7 @@
                         <label for=""> Payment Method </label>
                        <select name="payment_method" class="form-control" id="">
                           @foreach ($payments as $payment)
-                              <option value="{{ $payment->type }}">{{ $payment->type }}</option>
+                              <option value="{{ $payment->type }}">{{ $payment->type }} - {{ $payment->account_number }}</option>
                           @endforeach
                        </select>
                     </div>

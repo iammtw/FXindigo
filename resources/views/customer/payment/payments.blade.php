@@ -39,7 +39,9 @@
                         <tbody>
                         @foreach ($payments as $payment)
                         <tr>
-                        <td>{{ $payment->type }}</td>
+                        <td>{{ $payment->type }} @if ($payment->type == "Bank")
+                            ({{ ucfirst(trans($payment->bank_name)) }})
+                        @endif  </td>
                         <td>{{ $payment->account_holder }}</td>
                         <td>{{ $payment->account_number }}</td>
                         <td>

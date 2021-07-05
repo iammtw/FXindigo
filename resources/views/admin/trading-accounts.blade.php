@@ -20,6 +20,7 @@
                      <th> Username </th>
                      <th> Client ID </th>
                      <th> Type </th>
+                     <th>Time/Date</th>
                      <th> Currency </th>
                      <th> Leverage </th>
                      @if(App\User::find(Auth::id())->role == "admin")
@@ -59,6 +60,7 @@
                         {{ App\User::find($account->user_id)->client_id }}
                     </td>
                     <td>{{ $account->type }}</td>
+                    <td>{{ $account->created_at }}</td>
                     <td>{{ $account->currency }}</td>
                     <td>{{ $account->leverage }}</td>
                     @if(App\User::find(Auth::id())->role == "admin")

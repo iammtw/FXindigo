@@ -89,7 +89,7 @@
                       ?> None <?php
                       
                     } else {
-                    ?> <a href="{{ url('admin/partners/'.$partner->code) }}" class="btn btn-info">Check
+                    ?> <a href="{{ url('admin/partners/'.$partner->code) }}" >
                     <span class="badge badge-light">{{ $checkJoinedUser }}</span>
                     
                     </a> <?php
